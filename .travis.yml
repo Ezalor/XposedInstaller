@@ -14,7 +14,7 @@ script:
  
 deploy:
   provider: releases
-  api_key: db2baddf5e4ba5d3c36979bb33dd3dad3c58cbad
+  api_key: 8dc93f802cf351b96a12834f707e971f27d0cd64
   file: app/build/outputs/apk/XposedInstaller_by_dvdandroid-release-unsigned.apk
   skip_cleanup: true
   on:
