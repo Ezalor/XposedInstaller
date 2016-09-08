@@ -9,6 +9,9 @@ android:
     - extra-android-m2repository
     - extra-google-m2repository
 
+
+sudo: required
+
 script:
   - "./gradlew assembleRelease"
  
