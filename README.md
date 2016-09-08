@@ -1,6 +1,6 @@
 XposedInstaller
 ===============
-[![Build Status](https://travis-ci.org/DVDAndroid/XposedInstaller.svg?branch=material)](https://travis-ci.org/DVDAndroid/XposedInstaller)
+[![Build Status](https://travis-ci.org/Ezalor/XposedInstaller.svg?branch=master)](https://travis-ci.org/Ezalor/XposedInstaller)
 
 This is a materialised version of Xposed Installer
 
