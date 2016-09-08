@@ -9,9 +9,6 @@ android:
     - extra-android-m2repository
     - extra-google-m2repository
 
-
-sudo: required
-
 script:
   - "./gradlew assembleRelease"
  
@@ -20,3 +17,5 @@ deploy:
   api_key: db2baddf5e4ba5d3c36979bb33dd3dad3c58cbad
   file: app/build/outputs/apk/XposedInstaller_by_dvdandroid-release-unsigned.apk
   skip_cleanup: true
+  on:
+    tags: true
