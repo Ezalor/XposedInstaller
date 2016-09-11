@@ -9,7 +9,16 @@ android:
   - extra-android-m2repository
   - extra-google-m2repository
 script:
-- "./gradlew assembleRelease"
+- "./gradlew build"
+branches:
+  only:
+    - master
+after_script:
+  - git config user.name "Ezalor"
+  - git config user.email "gggghhhh2924@163.com"
+  - git add .
+  - git commit -m "Build"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:Build
 deploy:
   provider: releases
   api_key:
@@ -24,4 +33,7 @@ before_install:
 - gem install fir-cli
 after_deploy:
 - fir p app/build/outputs/apk/XposedInstaller_by_dvdandroid-release-unsigned.apk -T 8cb2a704dfd45a26e8c6d2189a30bdc2
+env:
+ global:
+   - GH_REF: github.com/Ezalor/XposedInstaller.git
 
