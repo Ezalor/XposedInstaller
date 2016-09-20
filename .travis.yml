@@ -1,10 +1,11 @@
 language: android
+jdk: oraclejdk8
 android:
   components:
   - tools
   - platform-tools
-  - build-tools-23.0.3
-  - android-23
+  - build-tools-24.0.2
+  - android-24
   - extra-android-support
   - extra-android-m2repository
   - extra-google-m2repository
@@ -17,7 +18,7 @@ after_script:
 - git config user.email "gggghhhh2924@163.com"
 - git add .
 - git commit -m "Build"
-- git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:Build-app
+- git push "https://${GH_TOKEN}@${GH_REF}" master:Build-app
 branches:
   only:
     - master
@@ -39,3 +40,12 @@ env:
  global:
    - GH_REF: github.com/Ezalor/XposedInstaller.git
 
+=======
+    - tools
+    - platform-tools
+    - build-tools-24.0.2
+    - android-24
+    - extra-android-support
+    - extra-android-m2repository
+    - extra-google-m2repository
+>>>>>>> upstream/material
