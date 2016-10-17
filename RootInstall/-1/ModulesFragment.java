@@ -427,15 +427,11 @@ public class ModulesFragment extends Fragment implements ModuleListener, Adapter
             menu.removeItem(R.id.menu_support);
         }
 
-        try {
-            String installer = mPm.getInstallerPackageName(installedModule.packageName);
-            if (PLAY_STORE_LABEL != null && PLAY_STORE_PACKAGE.equals(installer))
-                menu.findItem(R.id.menu_play_store).setTitle(PLAY_STORE_LABEL);
-            else
-                menu.removeItem(R.id.menu_play_store);
-        } catch (Exception e) {
+        String installer = mPm.getInstallerPackageName(installedModule.packageName);
+        if (PLAY_STORE_LABEL != null && PLAY_STORE_PACKAGE.equals(installer))
+            menu.findItem(R.id.menu_play_store).setTitle(PLAY_STORE_LABEL);
+        else
             menu.removeItem(R.id.menu_play_store);
-        }
     }
 
     @Override

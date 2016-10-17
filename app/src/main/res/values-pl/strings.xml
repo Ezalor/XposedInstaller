@@ -288,8 +288,6 @@
     <string name="undo">Cofnij</string>
     <string name="notification_coloration">Koloruj ikonę powiadomienia</string>
 	<string name="file_is_empty">Plik jest pusty</string>
-    <string name="install_with_su">Zainstaluj moduł z dostępem roota</string>
-    <string name="install_with_su_summ">Jeśli zaznaczone, Instalator Xposed zainstaluje moduł bez monitu</string>
     <string name="install_remove">Zainstaluj i usuń</string>
     <string name="download_remove">Pobierz i usuń</string>
     <string name="module_saved">Moduł zapisany %1$s</string>
@@ -309,15 +307,6 @@
     <string name="xposed_on_next_reboot">Xposed Framework zostanie włączony po ponownym uruchoimieniu</string>
     <string name="xposed_off_next_reboot">Xposed Framework zostanie wyłączony po ponownym uruchoimieniu</string>
     <string name="rovo_89_old_icon">rovo89 (stara)</string>
-    <string name="update_interval">Sprawdzanie aktualizacji w tle</string>
-    <string name="hour1">1 godzina</string>
-    <string name="hour2">2 godziny</string>
-    <string name="hour3">3 godziny</string>
-    <string name="hour4">4 godziny</string>
-    <string name="hour5">5 godzin</string>
-    <string name="hour6">6 godzin</string>
-    <string name="hour24">Codziennie</string>
-    <string name="off">Nigdy</string>
     <string name="confirm_reboots">Potwierdź ponowne uruchomienia</string>
     <string name="skip_xposedminversion_check">Pomiń sprawdzanie \'xposedminversion\'</string>
     <string name="skip_xposedminversion_check_summ">Pomiń sprawdzanie modułów \'xposedminversion\'</string>
@@ -354,5 +343,8 @@
     <string name="download_location_summ">Lokalizacja pobierania dla plików APK (tylko moduły)</string>
     <string name="restart_needed">Wymagane ponowne uruchomienie</string>
     <string name="cache_cleaned">Pamięć podręczna aplikacji została wyczyszczona. Wymagane ponowne uruchomienie</string>
+    <string name="update_download_list">Lista pobierania modułów zostanie wczytana w ciągu kilku sekund</string>
+    <string name="no_connection_available">Brak dostępnego połączenia</string>
+    <string name="activate_only">Tylko aktywuj</string>
 
 </resources>

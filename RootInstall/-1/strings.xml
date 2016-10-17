@@ -310,6 +310,15 @@
     <string name="xposed_on_next_reboot">Xposed Framework will be enabled on next reboot</string>
     <string name="xposed_off_next_reboot">Xposed Framework will be disabled on next reboot</string>
     <string name="rovo_89_old_icon">rovo89 (old)</string>
+    <string name="update_interval">Background update check interval</string>
+    <string name="hour1">1 hour</string>
+    <string name="hour2">2 hours</string>
+    <string name="hour3">3 hours</string>
+    <string name="hour4">4 hours</string>
+    <string name="hour5">5 hours</string>
+    <string name="hour6">6 hours</string>
+    <string name="hour24">Every day</string>
+    <string name="off">Never</string>
     <string name="confirm_reboots">Confirm reboots</string>
     <string name="skip_xposedminversion_check">Skip \'xposedminversion\' check</string>
     <string name="skip_xposedminversion_check_summ">Skip \'xposedminversion\' check for modules</string>
@@ -348,6 +357,5 @@
     <string name="cache_cleaned">App\'s cache has been cleaned. Restart is needed</string>
     <string name="update_download_list">The download\'s module list will be loaded in few seconds</string>
     <string name="no_connection_available">No connection available</string>
-    <string name="not_logcat">If someone asked you an Android Logcat, you\'re in the wrong section. This is the Xposed log; if you need a logcat, on XDA you can find what you need</string>
 
 </resources>

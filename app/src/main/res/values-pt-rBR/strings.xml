@@ -288,8 +288,6 @@
     <string name="undo">Desfazer</string>
     <string name="notification_coloration">Colorir ícone de notificação</string>
     <string name="file_is_empty">O arquivo está vazio</string>
-    <string name="install_with_su">Instalar módulo com root</string>
-    <string name="install_with_su_summ">Se marcado, o Xposed Installer vai instalar módulos sem perguntar</string>
     <string name="install_remove">Instalar e remover</string>
     <string name="download_remove">Baixar e remover</string>
     <string name="module_saved">Módulo salvo em %1$s</string>
@@ -309,15 +307,6 @@
     <string name="xposed_on_next_reboot">O Xposed framework vai ser ativado no próximo reinício</string>
     <string name="xposed_off_next_reboot">O Xposed framework vai ser desativado no próximo reinício</string>
     <string name="rovo_89_old_icon">rovo89 (\ntigo)</string>
-    <string name="update_interval">Intervalo da verificação de atualizaçoes em segundo plano</string>
-    <string name="hour1">1 hora</string>
-    <string name="hour2">2 horas</string>
-    <string name="hour3">3 horas</string>
-    <string name="hour4">4 horas</string>
-    <string name="hour5">5 horas</string>
-    <string name="hour6">6 horas</string>
-    <string name="hour24">Uma vez por dia</string>
-    <string name="off">Nunca</string>
     <string name="confirm_reboots">Confirmar reinício</string>
     <string name="skip_xposedminversion_check">Pular verificação de \'xposedminversion\' </string>
     <string name="skip_xposedminversion_check_summ">Pular verificação de \'xposedminversion\' para módulos </string>
