@@ -14,8 +14,8 @@ script:
 after_script:
 - cd app
 - git init
-- git config user.name "Ezalor"
-- git config user.email "gggghhhh2924@163.com"
+- git config user.name "$username"
+- git config user.email "$useremail"
 - git add .
 - git commit -m "Build"
 - git push --force --quite "https://${GH_TOKEN}@${GH_REF}" master:Build-app
@@ -25,7 +25,7 @@ branches:
 deploy:
   provider: releases
   api_key:
-    secure: rhPEQwxabhFnr+52weseDHsEBA3p8037EVcMfazZeadcr4QqItjsoTOAkS4fFQDTzvJHDdZjbdAoMPG5m9prEjEf3LhfrrZTg6rdrmywcQj849EJD6u+aJR8A8oiQG64H3LrLlnmTZbdSgltFUKneleFpSUBRnJuADKPMb7pkPcFVMA7i8CruVXezy1xHvS38n98qVIwQRMhyulkOgcRMCYjXriQxuxtv32BwRILDtKdP7EIRdwvfLekA3o39B0Z/BLCRrvxRQBU/R6PcnQw++GZcjlyIdRwFx2bX1MOX5Wc4aMCYrat1Ym6RE/I4ZjwatQwhoeqBJqm8dsJSvMYQVtoq4zVW5L8bYZ8bRWvXkB0lT9JEZ0L32/YRyIZNyy2HH8m34NKVBOkPmw6b4t8OLKPGA49ELraGs6SHRdzXLlrCPvQTah+fU7EPQqoVHuyFSFHM6MOS0raHWDOCJC4LZq/XUPhIOAfPFoPmQybV45eRkVUedPoVzOJ5eeSqGobbJ8ghyPCOTwCBGl0BfWZ8Uzsgoc0LykW1jY/DStHE1kgfCWuQ9FVQ+pcMHnp7opNOGyKWVxy9J1+7A6B3tkZbHlC8vzeXsP+8xPYjoZpc7vikhifQBLPymmAblyBslchmUtHuOfi41halwi8eEEj7MYzHTGechZeBhvd0I7Q+Bg=
+    secure: $GITHUB_TRAVIS
   file: app/build/outputs/apk/XposedInstaller_by_dvdandroid-release-unsigned.apk
   skip_cleanup: true
   on:
@@ -35,8 +35,5 @@ deploy:
 before_install:
 - gem install fir-cli
 after_deploy:
-- fir p app/build/outputs/apk/XposedInstaller_by_dvdandroid-release-unsigned.apk -T 8cb2a704dfd45a26e8c6d2189a30bdc2
-env:
- global:
-   - GH_REF: github.com/Ezalor/XposedInstaller.git
+- fir p app/build/outputs/apk/XposedInstaller_by_dvdandroid-release-unsigned.apk -T $FIR_TOKEN
 
