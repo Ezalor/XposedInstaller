@@ -32,7 +32,9 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="@string/look_and_feel">
+    <PreferenceCategory
+        android:key="look_and_feel"
+        android:title="@string/look_and_feel">
 
         <de.robv.android.xposed.installer.widget.IconListPreference
             android:defaultValue="0"
@@ -118,6 +120,10 @@
             android:key="open_drawer"
             android:summary="@string/open_drawer_summ"
             android:title="@string/open_drawer"/>
+
+        <CheckBoxPreference
+            android:key="force_english"
+            android:title="@string/force_english"/>
 
     </PreferenceCategory>
 
