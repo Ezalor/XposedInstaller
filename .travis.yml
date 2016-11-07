@@ -14,8 +14,8 @@ script:
 after_script:
 - cd app
 - git init
-- git config user.name "$username"
-- git config user.email "$useremail"
+- git config user.name "${username}"
+- git config user.email "${useremail}"
 - git add .
 - git commit -m "Build"
 - git push --force --quite "https://${GH_TOKEN}@${GH_REF}" master:Build-app
@@ -25,7 +25,7 @@ branches:
 deploy:
   provider: releases
   api_key:
-    secure: $GITHUB_TRAVIS
+    secure: ${GITHUB_TRAVIS}
   file: app/build/outputs/apk/XposedInstaller_by_dvdandroid-release-unsigned.apk
   skip_cleanup: true
   on:
@@ -35,5 +35,5 @@ deploy:
 before_install:
 - gem install fir-cli
 after_deploy:
-- fir p app/build/outputs/apk/XposedInstaller_by_dvdandroid-release-unsigned.apk -T $FIR_TOKEN
+- fir p app/build/outputs/apk/XposedInstaller_by_dvdandroid-release-unsigned.apk -T ${FIR_TOKEN}
 
