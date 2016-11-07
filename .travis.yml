@@ -30,7 +30,6 @@ deploy:
   skip_cleanup: true
   on:
     repo: Ezalor/XposedInstaller
-    tags: true
     all_branches: true
 before_install:
 - gem install fir-cli
