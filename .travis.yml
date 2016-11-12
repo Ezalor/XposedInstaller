@@ -11,7 +11,7 @@ android:
   - extra-google-m2repository
 script:
 - "./gradlew build"
-after_script:
+before_deploy:
 - cd app
 - git init
 - git config user.name "$username"
@@ -19,6 +19,7 @@ after_script:
 - git add .
 - git commit -m "Build"
 - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:Build-app
+- cd ..
 branches:
   only:
     - master
