@@ -59,7 +59,7 @@ public class XposedApp extends Application implements ActivityLifecycleCallbacks
     private static final File XPOSED_PROP_FILE_SYSTEMLESS_4 = new File("/xposed/xposed.prop");
     private static final File XPOSED_PROP_FILE = new File("/system/xposed.prop");
     public static int WRITE_EXTERNAL_PERMISSION = 69;
-    public static String THIS_APK_VERSION = "1478959200000";
+    public static String THIS_APK_VERSION = "1478959200001";
     public static int[] iconsValues = new int[]{R.mipmap.ic_launcher, R.mipmap.ic_launcher_hjmodi, R.mipmap.ic_launcher_rovo, R.mipmap.ic_launcher_rovo_old, R.mipmap.ic_launcher_staol};
     private static Pattern PATTERN_APP_PROCESS_VERSION = Pattern.compile(".*with Xposed support \\(version (.+)\\).*");
     private static XposedApp mInstance = null;
@@ -278,7 +278,7 @@ public class XposedApp extends Application implements ActivityLifecycleCallbacks
     private void reloadXposedProp() {
         Map<String, String> map = Collections.emptyMap();
         if (XPOSED_PROP_FILE.canRead() || XPOSED_PROP_FILE_SYSTEMLESS.canRead() || XPOSED_PROP_FILE_SYSTEMLESS_2.canRead()
-                || XPOSED_PROP_FILE_SYSTEMLESS_3.canRead() || XPOSED_PROP_FILE_SYSTEMLESS_4.canRead() ) {
+                || XPOSED_PROP_FILE_SYSTEMLESS_3.canRead() || XPOSED_PROP_FILE_SYSTEMLESS_4.canRead()) {
             File file = null;
             if (XPOSED_PROP_FILE.canRead()) {
                 file = XPOSED_PROP_FILE;
