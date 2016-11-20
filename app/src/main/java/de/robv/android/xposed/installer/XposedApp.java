@@ -218,7 +218,6 @@ public class XposedApp extends Application implements ActivityLifecycleCallbacks
         createDirectories();
         cleanup();
         NotificationUtil.init();
-        AssetUtil.checkStaticBusyboxAvailability();
         AssetUtil.removeBusybox();
 
         registerActivityLifecycleCallbacks(this);
@@ -231,8 +230,7 @@ public class XposedApp extends Application implements ActivityLifecycleCallbacks
 
             try {
                 Log.i(TAG, String.format("XposedInstaller - %s - %s", THIS_APK_VERSION, getPackageManager().getPackageInfo(getPackageName(), 0).versionName));
-            } catch (PackageManager.NameNotFoundException e) {
-                e.printStackTrace();
+            } catch (PackageManager.NameNotFoundException ignored) {
             }
         }
 
