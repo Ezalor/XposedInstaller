@@ -78,6 +78,18 @@ public class RootUtil {
     }
 
 
+    private OnCommandResultListener commandResultListener = new OnCommandResultListener() {
+        @Override
+        public void onCommandResult(int commandCode, int exitCode, List<String> output) {
+            mLastExitCode = exitCode;
+            mLastOutput = output;
+            synchronized (mCallbackThread) {
+                mCommandRunning = false;
+                mCallbackThread.notifyAll();
+            }
+        }
+    };
+
     private final Shell.OnCommandResultListener mOpenListener = new Shell.OnCommandResultListener() {
         @Override
         public void onCommandResult(int commandCode, int exitCode, List<String> output) {
@@ -165,6 +177,33 @@ public class RootUtil {
         return true;
     }
 
+    public synchronized boolean startShell1() {
+        if (mShell != null) {
+            if (mShell.isRunning())
+                return true;
+            else
+                dispose();
+        }
+
+        mCallbackThread = new HandlerThread("su callback listener");
+        mCallbackThread.start();
+
+        mCommandRunning = true;
+        mShell = new Shell.Builder().useSU()
+                .setHandler(new Handler(mCallbackThread.getLooper()))
+                .setWantSTDERR(true).setWatchdogTimeout(10)
+                .open(commandResultListener);
+
+        waitForCommandFinished();
+
+        if (mLastExitCode != OnCommandResultListener.SHELL_RUNNING) {
+            dispose();
+            return false;
+        }
+
+        return true;
+    }
+
     public boolean startShell(FlashCallback flashCallback) {
         if (!startShell()) {
             triggerError(flashCallback, FlashCallback.ERROR_NO_ROOT_ACCESS);
@@ -211,7 +250,7 @@ public class RootUtil {
 
     public synchronized int execute1(String command, List<String> output) {
         if (mShell == null)
-            startShell();
+            startShell1();
 
         mCommandRunning = true;
         mShell.addCommand(command, 0, commandResultListener);
