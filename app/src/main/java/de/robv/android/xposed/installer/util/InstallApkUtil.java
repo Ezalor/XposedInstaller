@@ -38,7 +38,7 @@ public class InstallApkUtil extends AsyncTask<Void, Void, Boolean> {
     @Override
     protected Boolean doInBackground(Void... params) {
         if (enabled) {
-            mRootUtil.execute("pm install -r \"" + info.localFilename + "\"", null);
+            mRootUtil.execute1("pm install -r \"" + info.localFilename + "\"", null);
         }
 
         return false;

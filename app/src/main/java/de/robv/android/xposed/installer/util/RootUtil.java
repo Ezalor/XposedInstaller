@@ -208,6 +208,21 @@ public class RootUtil {
      * Executes a single command, waits for its termination and returns the
      * result
      */
+
+    public synchronized int execute1(String command, List<String> output) {
+        if (mShell == null)
+            startShell();
+
+        mCommandRunning = true;
+        mShell.addCommand(command, 0, commandResultListener);
+        waitForCommandFinished();
+
+        if (output != null && mLastOutput.size() != 0 && !mLastOutput.get(0).contains("WARNING"))
+            output.addAll(mLastOutput);
+
+        return mLastExitCode;
+    }
+
     public synchronized int execute(String command, final List<String> output) {
         return execute(command, new LineCallback() {
             @Override
