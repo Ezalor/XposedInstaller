@@ -37,30 +37,30 @@
       "architecture":"arm"
     },	
     {
-      "name":"xposed-v86.0-sdk22-arm-custom-build-by-wanam-20160709",
-      "version":"86.0",
-      "link":"https://drive.google.com/uc?id=0B3vJQtURk5A4TTFZYWczRnRKNlE&export=download",
+      "name":"xposed-v87.0-sdk22-arm-custom-build-by-wanam-20161125",
+      "version":"87.0",
+      "link":"https://www.dropbox.com/sh/gz64h7cqg6hhh55/AAB-H1BUDLrKN-XpPrpS5yfja/Lollipop/xposed-v87.0-sdk22-arm-custom-build-by-wanam-20161125.zip?dl=1",
       "sdk":22,
       "architecture":"arm"
     },
     {
-      "name":"xposed-v86.0-sdk22-arm64-custom-build-by-wanam-20160709",
-      "version":"86.0",
-      "link":"https://drive.google.com/uc?id=0B3vJQtURk5A4dFExM1hPT2h1SDA&export=download",
+      "name":"xposed-v87.0-sdk22-arm64-custom-build-by-wanam-20161125",
+      "version":"87.0",
+      "link":"https://www.dropbox.com/sh/gz64h7cqg6hhh55/AADr4F9lWBqkFmwU949-HEDua/Lollipop/xposed-v87.0-sdk22-arm64-custom-build-by-wanam-20161125.zip?dl=1",
       "sdk":22,
       "architecture":"arm64"
     },
     {
-      "name":"xposed-v86.1-sdk23-arm-custom-build-by-wanam-20160904",
-      "version":"86.1",
-      "link":"https://www.dropbox.com/sh/gz64h7cqg6hhh55/AACaqZ6WHpI57HBgaraVlzRRa/xposed-v86.1-sdk23-arm-custom-build-by-wanam-20160904.zip?dl=1",
+      "name":"xposed-v87.0-sdk23-arm-custom-build-by-wanam-20161125",
+      "version":"87.0",
+      "link":"https://www.dropbox.com/sh/gz64h7cqg6hhh55/AAANSeeuk-PxXK1pPFMLAr-ha/Marshmallow?dl=1&preview=xposed-v87.0-sdk23-arm-custom-build-by-wanam-20161125.zip",
       "sdk":23,
       "architecture":"arm"
     },
     {
-      "name":"xposed-v86.1-sdk23-arm64-custom-build-by-wanam-20160904",
-      "version":"86.1",
-      "link":"https://www.dropbox.com/sh/gz64h7cqg6hhh55/AAA3B8_60GhCktnIldA_Uhqra/xposed-v86.1-sdk23-arm64-custom-build-by-wanam-20160904.zip?dl=1",
+      "name":"xposed-v87.0-sdk23-arm64-custom-build-by-wanam-20161125",
+      "version":"87.0",
+      "link":"https://www.dropbox.com/sh/gz64h7cqg6hhh55/AACt0P-7xKpiN_XBz7Vbe2g9a/Marshmallow/xposed-v87.0-sdk23-arm64-custom-build-by-wanam-20161125.zip?dl=1",
       "sdk":23,
       "architecture":"arm64"
     },
@@ -208,8 +208,8 @@
     }
   ],
   "apk":{
-    "version": "1478959200001",
-    "changelog":"<b>What's new:</b><br>&#149; <b>FIX:</b> Fix Portuguese translation <br>&#149; <b>NEW:</b> Android 7.1 Quick Shortcuts!<br>&#149; <b>NEW:</b> Android 7.1 round icon!<br>&#149; <b>NEW:</b> Preparation for Xposed for Nougat<br>&#149; <b>NEW:</b> Option to force English language<br>&#149; <b>IMPROVEMENT:</b> Speed up zip loading<br>&#149; <b>IMPROVEMENT:</b> Cherry-picked changes from official Xposed Installer<br>&#149; <b>FIX:</b> Fix some preferences for Kitkat and lower devices<br>&#149; <b>FIX:</b> Fix FCs<br><br>Translation updates",
-    "link": "http://forum.xda-developers.com/devdb/project/dl/?id=21477&task=get"
+    "version": "1480170600000",
+    "changelog":"<b>What's new:</b><br>&#149; <b>NEW:</b> /system installation without recovery (only rovo89 zips)<br><b>NEW:</b> module's name and description are selectable<br><b>FIX:</b> apply default round icon<br><b>FIX:</b> architecture error<br><b>FIX:</b> bug when changing language<br><b>FIX:</b> FCs<br><br><br>Updated translations",
+    "link": "http://forum.xda-developers.com/devdb/project/dl/?id=21776&task=get"
   }
 }
