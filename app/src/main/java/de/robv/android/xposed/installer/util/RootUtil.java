@@ -78,6 +78,8 @@ public class RootUtil {
     }
 
 
+    private List<String> mLastOutput = null;
+
     private OnCommandResultListener commandResultListener = new OnCommandResultListener() {
         @Override
         public void onCommandResult(int commandCode, int exitCode, List<String> output) {
