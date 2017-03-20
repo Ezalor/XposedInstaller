@@ -246,6 +246,8 @@
     <string name="undo">Отменить</string>
     <string name="notification_coloration">Цветная иконка уведомлений</string>
     <string name="file_is_empty">Файлов нет</string>
+    <string name="install_with_su">Автоустановка модуля</string>
+    <string name="install_with_su_summ">Если выбрано, Xposed Installer будет устанавливать модули без запроса на установку</string>
     <string name="install_remove">Установить и удалить</string>
     <string name="download_remove">Скачать и удалить</string>
     <string name="module_saved">Модуль сохранен в %1$s</string>
@@ -276,8 +278,8 @@
     <string name="official_compatibility">Все AOSP и Samsung прошивки; Nexus, LG, HTC, Asus устройства</string>
     <string name="official_incompatibility">Нет несовместимостей</string>
     <string name="official_compatibility_v21">Все AOSP прошивки, Nexus, LG, HTC, Huawei, Asus устройства</string>
-    <string name="official_incompatibility_v21">Samsung прошививки</string>
-    <string name="systemless_compatibility">Все на основе прошивок AOSP, Samsung пришивки; Nexus, LG, HTC, Asus, Pixel C устройства</string>
+    <string name="official_incompatibility_v21">Samsung прошивки</string>
+    <string name="systemless_compatibility">Все на основе прошивок AOSP, Samsung прошивки; Nexus, LG, HTC, Asus, Pixel C устройства</string>
     <string name="systemless_incompatibility">Нет несовместимостей</string>
     <string name="samsung_compatibility">Все AOSP и Samsung прошивки; Nexus, LG, HTC, Asus устройства. <b>Note: альтернативная</b> версия для Samsung Note телефонов</string>
     <string name="samsung_incompatibility">Нет несовместимостей</string>
