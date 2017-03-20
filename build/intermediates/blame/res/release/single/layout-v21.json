@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

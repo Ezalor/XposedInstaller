@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/layout-ldrtl-v17/md_listitem_multichoice.xml",
+        "source": "/home/travis/.android/build-cache/6a85869d678f17b1a3fd9bd50f1d9c1ed02d05b8/output/res/layout-ldrtl-v17/md_listitem_multichoice.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/layout-ldrtl-v17/md_listitem_singlechoice.xml",
+        "source": "/home/travis/.android/build-cache/6a85869d678f17b1a3fd9bd50f1d9c1ed02d05b8/output/res/layout-ldrtl-v17/md_listitem_singlechoice.xml"
+    }
+]

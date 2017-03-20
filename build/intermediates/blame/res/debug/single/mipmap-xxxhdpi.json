@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/circle_ic_launcher_hjmodi.png",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/mipmap-xxxhdpi/circle_ic_launcher_hjmodi.png"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_hjmodi.png",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/mipmap-xxxhdpi/ic_launcher_hjmodi.png"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/circle_ic_launcher.png",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/mipmap-xxxhdpi/circle_ic_launcher.png"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/circle_ic_launcher_rovo.png",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/mipmap-xxxhdpi/circle_ic_launcher_rovo.png"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_staol.png",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/mipmap-xxxhdpi/ic_launcher_staol.png"
+    }
+]

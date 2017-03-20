@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/travis/.android/build-cache/da15e0afe65e456b71f3632cb338299cb7f139cc/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    }
+]

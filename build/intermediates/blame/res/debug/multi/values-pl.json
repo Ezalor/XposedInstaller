@@ -1,0 +1,5312 @@
+[
+    {
+        "outputFile": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 115,
+                    "endOffset": 166
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 115,
+                        "endOffset": 166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 171,
+                    "endColumn": 107,
+                    "endOffset": 274
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 171,
+                        "endColumn": 107,
+                        "endOffset": 274
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 279,
+                    "endColumn": 122,
+                    "endOffset": 397
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 279,
+                        "endColumn": 122,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 402,
+                    "endColumn": 101,
+                    "endOffset": 499
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 101,
+                        "endOffset": 499
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 504,
+                    "endColumn": 107,
+                    "endOffset": 607
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 504,
+                        "endColumn": 107,
+                        "endOffset": 607
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 612,
+                    "endColumn": 85,
+                    "endOffset": 693
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 612,
+                        "endColumn": 85,
+                        "endOffset": 693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 698,
+                    "endColumn": 108,
+                    "endOffset": 802
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 698,
+                        "endColumn": 108,
+                        "endOffset": 802
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 807,
+                    "endColumn": 118,
+                    "endOffset": 921
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 807,
+                        "endColumn": 118,
+                        "endOffset": 921
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 926,
+                    "endColumn": 77,
+                    "endOffset": 999
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 926,
+                        "endColumn": 77,
+                        "endOffset": 999
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1004,
+                    "endColumn": 76,
+                    "endOffset": 1076
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1004,
+                        "endColumn": 76,
+                        "endOffset": 1076
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1081,
+                    "endColumn": 81,
+                    "endOffset": 1158
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1081,
+                        "endColumn": 81,
+                        "endOffset": 1158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1163,
+                    "endColumn": 108,
+                    "endOffset": 1267
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1163,
+                        "endColumn": 108,
+                        "endOffset": 1267
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1272,
+                    "endColumn": 108,
+                    "endOffset": 1376
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1272,
+                        "endColumn": 108,
+                        "endOffset": 1376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1381,
+                    "endColumn": 98,
+                    "endOffset": 1475
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1381,
+                        "endColumn": 98,
+                        "endOffset": 1475
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1480,
+                    "endColumn": 108,
+                    "endOffset": 1584
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1480,
+                        "endColumn": 108,
+                        "endOffset": 1584
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1589,
+                    "endColumn": 110,
+                    "endOffset": 1695
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1589,
+                        "endColumn": 110,
+                        "endOffset": 1695
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1700,
+                    "endColumn": 107,
+                    "endOffset": 1803
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1700,
+                        "endColumn": 107,
+                        "endOffset": 1803
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1808,
+                    "endColumn": 122,
+                    "endOffset": 1926
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1808,
+                        "endColumn": 122,
+                        "endOffset": 1926
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1931,
+                    "endColumn": 95,
+                    "endOffset": 2022
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1931,
+                        "endColumn": 95,
+                        "endOffset": 2022
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2027,
+                    "endColumn": 397,
+                    "endOffset": 2420
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 158,
+                        "startColumn": 4,
+                        "startOffset": 11841,
+                        "endColumn": 397,
+                        "endOffset": 12234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2425,
+                    "endColumn": 66,
+                    "endOffset": 2487
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 157,
+                        "startColumn": 4,
+                        "startOffset": 11774,
+                        "endColumn": 66,
+                        "endOffset": 11836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2492,
+                    "endColumn": 68,
+                    "endOffset": 2556
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 163,
+                        "startColumn": 4,
+                        "startOffset": 12464,
+                        "endColumn": 68,
+                        "endOffset": 12528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2561,
+                    "endColumn": 58,
+                    "endOffset": 2615
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 162,
+                        "startColumn": 4,
+                        "startOffset": 12405,
+                        "endColumn": 58,
+                        "endOffset": 12459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2620,
+                    "endColumn": 58,
+                    "endOffset": 2674
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 159,
+                        "startColumn": 4,
+                        "startOffset": 12239,
+                        "endColumn": 58,
+                        "endOffset": 12293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2679,
+                    "endColumn": 54,
+                    "endOffset": 2729
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 161,
+                        "startColumn": 4,
+                        "startOffset": 12350,
+                        "endColumn": 54,
+                        "endOffset": 12400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2734,
+                    "endColumn": 68,
+                    "endOffset": 2798
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 5430,
+                        "endColumn": 68,
+                        "endOffset": 5494
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2803,
+                    "endColumn": 55,
+                    "endOffset": 2854
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 5499,
+                        "endColumn": 55,
+                        "endOffset": 5550
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2859,
+                    "endColumn": 55,
+                    "endOffset": 2910
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 237,
+                        "startColumn": 4,
+                        "startOffset": 16934,
+                        "endColumn": 55,
+                        "endOffset": 16985
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2915,
+                    "endColumn": 68,
+                    "endOffset": 2979
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 291,
+                        "startColumn": 4,
+                        "startOffset": 20736,
+                        "endColumn": 68,
+                        "endOffset": 20800
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2984,
+                    "endColumn": 57,
+                    "endOffset": 3037
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1574,
+                        "endColumn": 57,
+                        "endOffset": 1627
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3042,
+                    "endColumn": 96,
+                    "endOffset": 3134
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1902,
+                        "endColumn": 96,
+                        "endOffset": 1994
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3139,
+                    "endColumn": 39,
+                    "endOffset": 3174
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 203,
+                        "startColumn": 4,
+                        "startOffset": 15170,
+                        "endColumn": 39,
+                        "endOffset": 15205
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3179,
+                    "endColumn": 58,
+                    "endOffset": 3233
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 4,
+                        "startOffset": 17163,
+                        "endColumn": 58,
+                        "endOffset": 17217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3238,
+                    "endColumn": 62,
+                    "endOffset": 3296
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 242,
+                        "startColumn": 4,
+                        "startOffset": 17222,
+                        "endColumn": 62,
+                        "endOffset": 17280
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3301,
+                    "endColumn": 46,
+                    "endOffset": 3343
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 239,
+                        "startColumn": 4,
+                        "startOffset": 17048,
+                        "endColumn": 46,
+                        "endOffset": 17090
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3348,
+                    "endColumn": 120,
+                    "endOffset": 3464
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 300,
+                        "startColumn": 4,
+                        "startOffset": 21452,
+                        "endColumn": 120,
+                        "endOffset": 21568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3469,
+                    "endColumn": 49,
+                    "endOffset": 3514
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 235,
+                        "startColumn": 4,
+                        "startOffset": 16829,
+                        "endColumn": 49,
+                        "endOffset": 16874
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3519,
+                    "endColumn": 43,
+                    "endOffset": 3558
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 7067,
+                        "endColumn": 43,
+                        "endOffset": 7106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3563,
+                    "endColumn": 55,
+                    "endOffset": 3614
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 185,
+                        "startColumn": 4,
+                        "startOffset": 13900,
+                        "endColumn": 55,
+                        "endOffset": 13951
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 3619,
+                    "endColumn": 53,
+                    "endOffset": 3668
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 222,
+                        "startColumn": 4,
+                        "startOffset": 16048,
+                        "endColumn": 53,
+                        "endOffset": 16097
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 3673,
+                    "endColumn": 65,
+                    "endOffset": 3734
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 255,
+                        "startColumn": 4,
+                        "startOffset": 18110,
+                        "endColumn": 65,
+                        "endOffset": 18171
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 3739,
+                    "endColumn": 93,
+                    "endOffset": 3828
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 256,
+                        "startColumn": 4,
+                        "startOffset": 18176,
+                        "endColumn": 93,
+                        "endOffset": 18265
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3833,
+                    "endColumn": 56,
+                    "endOffset": 3885
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 287,
+                        "startColumn": 4,
+                        "startOffset": 20510,
+                        "endColumn": 56,
+                        "endOffset": 20562
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3890,
+                    "endColumn": 74,
+                    "endOffset": 3960
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 266,
+                        "startColumn": 4,
+                        "startOffset": 19001,
+                        "endColumn": 74,
+                        "endOffset": 19071
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3965,
+                    "endColumn": 60,
+                    "endOffset": 4021
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 223,
+                        "startColumn": 4,
+                        "startOffset": 16102,
+                        "endColumn": 60,
+                        "endOffset": 16158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 4026,
+                    "endColumn": 45,
+                    "endOffset": 4067
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 288,
+                        "startColumn": 4,
+                        "startOffset": 20567,
+                        "endColumn": 45,
+                        "endOffset": 20608
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 4072,
+                    "endColumn": 89,
+                    "endOffset": 4157
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 293,
+                        "startColumn": 4,
+                        "startOffset": 20847,
+                        "endColumn": 89,
+                        "endOffset": 20932
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 4162,
+                    "endColumn": 64,
+                    "endOffset": 4222
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2680,
+                        "endColumn": 64,
+                        "endOffset": 2740
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 4227,
+                    "endColumn": 65,
+                    "endOffset": 4288
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 217,
+                        "startColumn": 4,
+                        "startOffset": 15559,
+                        "endColumn": 65,
+                        "endOffset": 15620
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 4293,
+                    "endColumn": 52,
+                    "endOffset": 4341
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 7815,
+                        "endColumn": 52,
+                        "endOffset": 7863
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 4346,
+                    "endColumn": 98,
+                    "endOffset": 4440
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 177,
+                        "startColumn": 4,
+                        "startOffset": 13285,
+                        "endColumn": 98,
+                        "endOffset": 13379
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 4445,
+                    "endColumn": 107,
+                    "endOffset": 4548
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 4,
+                        "startOffset": 9066,
+                        "endColumn": 107,
+                        "endOffset": 9169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 4553,
+                    "endColumn": 66,
+                    "endOffset": 4615
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 7111,
+                        "endColumn": 66,
+                        "endOffset": 7173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 4620,
+                    "endColumn": 69,
+                    "endOffset": 4685
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 7244,
+                        "endColumn": 69,
+                        "endOffset": 7309
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 4690,
+                    "endColumn": 65,
+                    "endOffset": 4751
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 7178,
+                        "endColumn": 65,
+                        "endOffset": 7239
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 4756,
+                    "endColumn": 125,
+                    "endOffset": 4877
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 179,
+                        "startColumn": 4,
+                        "startOffset": 13489,
+                        "endColumn": 125,
+                        "endOffset": 13610
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 4882,
+                    "endColumn": 68,
+                    "endOffset": 4946
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 297,
+                        "startColumn": 4,
+                        "startOffset": 21206,
+                        "endColumn": 68,
+                        "endOffset": 21270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 4951,
+                    "endColumn": 103,
+                    "endOffset": 5050
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 298,
+                        "startColumn": 4,
+                        "startOffset": 21275,
+                        "endColumn": 103,
+                        "endOffset": 21374
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 5055,
+                    "endColumn": 115,
+                    "endOffset": 5166
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 176,
+                        "startColumn": 4,
+                        "startOffset": 13169,
+                        "endColumn": 115,
+                        "endOffset": 13280
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 5171,
+                    "endColumn": 104,
+                    "endOffset": 5271
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 178,
+                        "startColumn": 4,
+                        "startOffset": 13384,
+                        "endColumn": 104,
+                        "endOffset": 13484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 5276,
+                    "endColumn": 85,
+                    "endOffset": 5357
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 4,
+                        "startOffset": 9174,
+                        "endColumn": 85,
+                        "endOffset": 9255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 5362,
+                    "endColumn": 58,
+                    "endOffset": 5416
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 249,
+                        "startColumn": 4,
+                        "startOffset": 17716,
+                        "endColumn": 58,
+                        "endOffset": 17770
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 5421,
+                    "endColumn": 68,
+                    "endOffset": 5485
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 4,
+                        "startOffset": 8795,
+                        "endColumn": 68,
+                        "endOffset": 8859
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 5490,
+                    "endColumn": 64,
+                    "endOffset": 5550
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 8927,
+                        "endColumn": 64,
+                        "endOffset": 8987
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 5555,
+                    "endColumn": 62,
+                    "endOffset": 5613
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 4,
+                        "startOffset": 8864,
+                        "endColumn": 62,
+                        "endOffset": 8922
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 5618,
+                    "endColumn": 64,
+                    "endOffset": 5678
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 8500,
+                        "endColumn": 64,
+                        "endOffset": 8560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 5683,
+                    "endColumn": 68,
+                    "endOffset": 5747
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 8649,
+                        "endColumn": 68,
+                        "endOffset": 8713
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 5752,
+                    "endColumn": 76,
+                    "endOffset": 5824
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 4,
+                        "startOffset": 8718,
+                        "endColumn": 76,
+                        "endOffset": 8790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 5829,
+                    "endColumn": 73,
+                    "endOffset": 5898
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 8992,
+                        "endColumn": 73,
+                        "endOffset": 9061
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 5903,
+                    "endColumn": 83,
+                    "endOffset": 5982
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 4,
+                        "startOffset": 8565,
+                        "endColumn": 83,
+                        "endOffset": 8644
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 5987,
+                    "endColumn": 67,
+                    "endOffset": 6050
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 8432,
+                        "endColumn": 67,
+                        "endOffset": 8495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 6055,
+                    "endColumn": 69,
+                    "endOffset": 6120
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 8276,
+                        "endColumn": 69,
+                        "endOffset": 8341
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 6125,
+                    "endColumn": 64,
+                    "endOffset": 6185
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 8211,
+                        "endColumn": 64,
+                        "endOffset": 8271
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 6190,
+                    "endColumn": 85,
+                    "endOffset": 6271
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 8346,
+                        "endColumn": 85,
+                        "endOffset": 8427
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 6276,
+                    "endColumn": 79,
+                    "endOffset": 6351
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 7935,
+                        "endColumn": 79,
+                        "endOffset": 8010
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 6356,
+                    "endColumn": 108,
+                    "endOffset": 6460
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 8015,
+                        "endColumn": 108,
+                        "endOffset": 8119
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 6465,
+                    "endColumn": 185,
+                    "endOffset": 6646
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 9260,
+                        "endColumn": 185,
+                        "endOffset": 9441
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 6651,
+                    "endColumn": 86,
+                    "endOffset": 6733
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 8124,
+                        "endColumn": 86,
+                        "endOffset": 8206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 6738,
+                    "endColumn": 66,
+                    "endOffset": 6800
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 7868,
+                        "endColumn": 66,
+                        "endOffset": 7930
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 6805,
+                    "endColumn": 55,
+                    "endOffset": 6856
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 168,
+                        "startColumn": 4,
+                        "startOffset": 12678,
+                        "endColumn": 55,
+                        "endOffset": 12729
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 6861,
+                    "endColumn": 58,
+                    "endOffset": 6915
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 166,
+                        "startColumn": 4,
+                        "startOffset": 12560,
+                        "endColumn": 58,
+                        "endOffset": 12614
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 6920,
+                    "endColumn": 74,
+                    "endOffset": 6990
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 173,
+                        "startColumn": 4,
+                        "startOffset": 13066,
+                        "endColumn": 74,
+                        "endOffset": 13136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 6995,
+                    "endColumn": 58,
+                    "endOffset": 7049
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 167,
+                        "startColumn": 4,
+                        "startOffset": 12619,
+                        "endColumn": 58,
+                        "endOffset": 12673
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 7054,
+                    "endColumn": 88,
+                    "endOffset": 7138
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 169,
+                        "startColumn": 4,
+                        "startOffset": 12734,
+                        "endColumn": 88,
+                        "endOffset": 12818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 7143,
+                    "endColumn": 97,
+                    "endOffset": 7236
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 170,
+                        "startColumn": 4,
+                        "startOffset": 12823,
+                        "endColumn": 97,
+                        "endOffset": 12916
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 7241,
+                    "endColumn": 74,
+                    "endOffset": 7311
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 172,
+                        "startColumn": 4,
+                        "startOffset": 12991,
+                        "endColumn": 74,
+                        "endOffset": 13061
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 7316,
+                    "endColumn": 69,
+                    "endOffset": 7381
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 171,
+                        "startColumn": 4,
+                        "startOffset": 12921,
+                        "endColumn": 69,
+                        "endOffset": 12986
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 7386,
+                    "endColumn": 75,
+                    "endOffset": 7457
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 196,
+                        "startColumn": 4,
+                        "startOffset": 14696,
+                        "endColumn": 75,
+                        "endOffset": 14767
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 7462,
+                    "endColumn": 128,
+                    "endOffset": 7586
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 197,
+                        "startColumn": 4,
+                        "startOffset": 14772,
+                        "endColumn": 128,
+                        "endOffset": 14896
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 7591,
+                    "endColumn": 44,
+                    "endOffset": 7631
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 189,
+                        "startColumn": 4,
+                        "startOffset": 14180,
+                        "endColumn": 44,
+                        "endOffset": 14220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 7636,
+                    "endColumn": 83,
+                    "endOffset": 7715
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 191,
+                        "startColumn": 4,
+                        "startOffset": 14269,
+                        "endColumn": 83,
+                        "endOffset": 14348
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 7720,
+                    "endColumn": 90,
+                    "endOffset": 7806
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 193,
+                        "startColumn": 4,
+                        "startOffset": 14436,
+                        "endColumn": 90,
+                        "endOffset": 14522
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 7811,
+                    "endColumn": 85,
+                    "endOffset": 7892
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 3859,
+                        "endColumn": 85,
+                        "endOffset": 3940
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 7897,
+                    "endColumn": 80,
+                    "endOffset": 7973
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 4029,
+                        "endColumn": 80,
+                        "endOffset": 4105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 7978,
+                    "endColumn": 83,
+                    "endOffset": 8057
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 3945,
+                        "endColumn": 83,
+                        "endOffset": 4024
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 8062,
+                    "endColumn": 83,
+                    "endOffset": 8141
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 4189,
+                        "endColumn": 83,
+                        "endOffset": 4268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 8146,
+                    "endColumn": 78,
+                    "endOffset": 8220
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 4110,
+                        "endColumn": 78,
+                        "endOffset": 4184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 8225,
+                    "endColumn": 77,
+                    "endOffset": 8298
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 4335,
+                        "endColumn": 77,
+                        "endOffset": 4408
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 8303,
+                    "endColumn": 55,
+                    "endOffset": 8354
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 4273,
+                        "endColumn": 61,
+                        "endOffset": 4330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 8359,
+                    "endColumn": 87,
+                    "endOffset": 8442
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 4754,
+                        "endColumn": 87,
+                        "endOffset": 4837
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 8447,
+                    "endColumn": 74,
+                    "endOffset": 8517
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 4673,
+                        "endColumn": 80,
+                        "endOffset": 4749
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 8522,
+                    "endColumn": 81,
+                    "endOffset": 8599
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 5103,
+                        "endColumn": 81,
+                        "endOffset": 5180
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 8604,
+                    "endColumn": 71,
+                    "endOffset": 8671
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 3534,
+                        "endColumn": 71,
+                        "endOffset": 3601
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 8676,
+                    "endColumn": 57,
+                    "endOffset": 8729
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 245,
+                        "startColumn": 4,
+                        "startOffset": 17405,
+                        "endColumn": 57,
+                        "endOffset": 17458
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 8734,
+                    "endColumn": 88,
+                    "endOffset": 8818
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 3688,
+                        "endColumn": 88,
+                        "endOffset": 3772
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 8823,
+                    "endColumn": 75,
+                    "endOffset": 8894
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 3606,
+                        "endColumn": 81,
+                        "endOffset": 3683
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 8899,
+                    "endColumn": 77,
+                    "endOffset": 8972
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 4413,
+                        "endColumn": 77,
+                        "endOffset": 4486
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 8977,
+                    "endColumn": 96,
+                    "endOffset": 9069
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 4576,
+                        "endColumn": 96,
+                        "endOffset": 4668
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 9074,
+                    "endColumn": 84,
+                    "endOffset": 9154
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 4491,
+                        "endColumn": 84,
+                        "endOffset": 4571
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 9159,
+                    "endColumn": 75,
+                    "endOffset": 9230
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 3777,
+                        "endColumn": 81,
+                        "endOffset": 3854
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 9235,
+                    "endColumn": 106,
+                    "endOffset": 9337
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 4842,
+                        "endColumn": 112,
+                        "endOffset": 4950
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 9342,
+                    "endColumn": 147,
+                    "endOffset": 9485
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 4955,
+                        "endColumn": 147,
+                        "endOffset": 5098
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 9490,
+                    "endColumn": 115,
+                    "endOffset": 9601
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 295,
+                        "startColumn": 4,
+                        "startOffset": 21050,
+                        "endColumn": 115,
+                        "endOffset": 21161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 9606,
+                    "endColumn": 63,
+                    "endOffset": 9665
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 251,
+                        "startColumn": 4,
+                        "startOffset": 17836,
+                        "endColumn": 63,
+                        "endOffset": 17895
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 9670,
+                    "endColumn": 92,
+                    "endOffset": 9758
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 252,
+                        "startColumn": 4,
+                        "startOffset": 17900,
+                        "endColumn": 92,
+                        "endOffset": 17988
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 9763,
+                    "endColumn": 43,
+                    "endOffset": 9802
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 190,
+                        "startColumn": 4,
+                        "startOffset": 14225,
+                        "endColumn": 43,
+                        "endOffset": 14264
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 9807,
+                    "endColumn": 82,
+                    "endOffset": 9885
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 192,
+                        "startColumn": 4,
+                        "startOffset": 14353,
+                        "endColumn": 82,
+                        "endOffset": 14431
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 9890,
+                    "endColumn": 89,
+                    "endOffset": 9975
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 194,
+                        "startColumn": 4,
+                        "startOffset": 14527,
+                        "endColumn": 89,
+                        "endOffset": 14612
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 9980,
+                    "endColumn": 37,
+                    "endOffset": 10013
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 205,
+                        "startColumn": 4,
+                        "startOffset": 15288,
+                        "endColumn": 37,
+                        "endOffset": 15321
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 10018,
+                    "endLine": 126,
+                    "endColumn": 10,
+                    "endOffset": 10132
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 206,
+                        "startColumn": 4,
+                        "startOffset": 15326,
+                        "endLine": 211,
+                        "endColumn": 10,
+                        "endOffset": 15440
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 10137,
+                    "endLine": 131,
+                    "endColumn": 10,
+                    "endOffset": 10246
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 212,
+                        "startColumn": 4,
+                        "startOffset": 15445,
+                        "endLine": 216,
+                        "endColumn": 10,
+                        "endOffset": 15554
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 10251,
+                    "endColumn": 61,
+                    "endOffset": 10308
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1333,
+                        "endColumn": 61,
+                        "endOffset": 1390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 133,
+                    "startColumn": 4,
+                    "startOffset": 10313,
+                    "endColumn": 231,
+                    "endOffset": 10540
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2745,
+                        "endColumn": 231,
+                        "endOffset": 2972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 134,
+                    "startColumn": 4,
+                    "startOffset": 10545,
+                    "endColumn": 77,
+                    "endOffset": 10618
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 4,
+                        "startOffset": 9606,
+                        "endColumn": 77,
+                        "endOffset": 9679
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 10623,
+                    "endColumn": 107,
+                    "endOffset": 10726
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 4,
+                        "startOffset": 9684,
+                        "endColumn": 107,
+                        "endOffset": 9787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 10731,
+                    "endColumn": 131,
+                    "endOffset": 10858
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 4,
+                        "startOffset": 9792,
+                        "endColumn": 131,
+                        "endOffset": 9919
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 137,
+                    "startColumn": 4,
+                    "startOffset": 10863,
+                    "endColumn": 60,
+                    "endOffset": 10919
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 248,
+                        "startColumn": 4,
+                        "startOffset": 17655,
+                        "endColumn": 60,
+                        "endOffset": 17711
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 10924,
+                    "endColumn": 321,
+                    "endOffset": 11241
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 2358,
+                        "endColumn": 321,
+                        "endOffset": 2675
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 11246,
+                    "endColumn": 64,
+                    "endOffset": 11306
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 2293,
+                        "endColumn": 64,
+                        "endOffset": 2353
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 140,
+                    "startColumn": 4,
+                    "startOffset": 11311,
+                    "endColumn": 77,
+                    "endOffset": 11384
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 246,
+                        "startColumn": 4,
+                        "startOffset": 17463,
+                        "endColumn": 77,
+                        "endOffset": 17536
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 11389,
+                    "endColumn": 113,
+                    "endOffset": 11498
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 247,
+                        "startColumn": 4,
+                        "startOffset": 17541,
+                        "endColumn": 113,
+                        "endOffset": 17650
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 142,
+                    "startColumn": 4,
+                    "startOffset": 11503,
+                    "endColumn": 87,
+                    "endOffset": 11586
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2977,
+                        "endColumn": 87,
+                        "endOffset": 3060
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 11591,
+                    "endColumn": 169,
+                    "endOffset": 11756
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 3065,
+                        "endColumn": 169,
+                        "endOffset": 3230
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 144,
+                    "startColumn": 4,
+                    "startOffset": 11761,
+                    "endColumn": 41,
+                    "endOffset": 11798
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 292,
+                        "startColumn": 4,
+                        "startOffset": 20805,
+                        "endColumn": 41,
+                        "endOffset": 20842
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 11803,
+                    "endColumn": 46,
+                    "endOffset": 11845
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 254,
+                        "startColumn": 4,
+                        "startOffset": 18063,
+                        "endColumn": 46,
+                        "endOffset": 18105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 11850,
+                    "endColumn": 77,
+                    "endOffset": 11923
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 204,
+                        "startColumn": 4,
+                        "startOffset": 15210,
+                        "endColumn": 77,
+                        "endOffset": 15283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 147,
+                    "startColumn": 4,
+                    "startOffset": 11928,
+                    "endColumn": 55,
+                    "endOffset": 11979
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 154,
+                        "startColumn": 4,
+                        "startOffset": 11694,
+                        "endColumn": 55,
+                        "endOffset": 11745
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 11984,
+                    "endColumn": 68,
+                    "endOffset": 12048
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 153,
+                        "startColumn": 4,
+                        "startOffset": 11625,
+                        "endColumn": 68,
+                        "endOffset": 11689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 12053,
+                    "endColumn": 54,
+                    "endOffset": 12103
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 152,
+                        "startColumn": 4,
+                        "startOffset": 11570,
+                        "endColumn": 54,
+                        "endOffset": 11620
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 12108,
+                    "endColumn": 80,
+                    "endOffset": 12184
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 149,
+                        "startColumn": 4,
+                        "startOffset": 11333,
+                        "endColumn": 80,
+                        "endOffset": 11409
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 12189,
+                    "endColumn": 48,
+                    "endOffset": 12233
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 289,
+                        "startColumn": 4,
+                        "startOffset": 20613,
+                        "endColumn": 48,
+                        "endOffset": 20657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 12238,
+                    "endColumn": 100,
+                    "endOffset": 12334
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1999,
+                        "endColumn": 100,
+                        "endOffset": 2095
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 12339,
+                    "endColumn": 48,
+                    "endOffset": 12383
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 227,
+                        "startColumn": 4,
+                        "startOffset": 16350,
+                        "endColumn": 48,
+                        "endOffset": 16394
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 12388,
+                    "endColumn": 50,
+                    "endOffset": 12434
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 229,
+                        "startColumn": 4,
+                        "startOffset": 16448,
+                        "endColumn": 50,
+                        "endOffset": 16494
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 155,
+                    "startColumn": 4,
+                    "startOffset": 12439,
+                    "endColumn": 51,
+                    "endOffset": 12486
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 230,
+                        "startColumn": 4,
+                        "startOffset": 16499,
+                        "endColumn": 51,
+                        "endOffset": 16546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 156,
+                    "startColumn": 4,
+                    "startOffset": 12491,
+                    "endColumn": 58,
+                    "endOffset": 12545
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 233,
+                        "startColumn": 4,
+                        "startOffset": 16712,
+                        "endColumn": 58,
+                        "endOffset": 16766
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 12550,
+                    "endColumn": 48,
+                    "endOffset": 12594
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 228,
+                        "startColumn": 4,
+                        "startOffset": 16399,
+                        "endColumn": 48,
+                        "endOffset": 16443
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 158,
+                    "startColumn": 4,
+                    "startOffset": 12599,
+                    "endColumn": 47,
+                    "endOffset": 12642
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 231,
+                        "startColumn": 4,
+                        "startOffset": 16551,
+                        "endColumn": 47,
+                        "endOffset": 16594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 159,
+                    "startColumn": 4,
+                    "startOffset": 12647,
+                    "endColumn": 57,
+                    "endOffset": 12700
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 234,
+                        "startColumn": 4,
+                        "startOffset": 16771,
+                        "endColumn": 57,
+                        "endOffset": 16824
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 160,
+                    "startColumn": 4,
+                    "startOffset": 12705,
+                    "endColumn": 112,
+                    "endOffset": 12813
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 232,
+                        "startColumn": 4,
+                        "startOffset": 16599,
+                        "endColumn": 112,
+                        "endOffset": 16707
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 161,
+                    "startColumn": 4,
+                    "startOffset": 12818,
+                    "endColumn": 56,
+                    "endOffset": 12870
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 151,
+                        "startColumn": 4,
+                        "startOffset": 11513,
+                        "endColumn": 56,
+                        "endOffset": 11565
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 162,
+                    "startColumn": 4,
+                    "startOffset": 12875,
+                    "endColumn": 48,
+                    "endOffset": 12919
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 7018,
+                        "endColumn": 48,
+                        "endOffset": 7062
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 12924,
+                    "endColumn": 60,
+                    "endOffset": 12980
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 218,
+                        "endColumn": 60,
+                        "endOffset": 274
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 164,
+                    "startColumn": 4,
+                    "startOffset": 12985,
+                    "endColumn": 45,
+                    "endOffset": 13026
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 4,
+                        "startOffset": 6972,
+                        "endColumn": 45,
+                        "endOffset": 7013
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 165,
+                    "startColumn": 4,
+                    "startOffset": 13031,
+                    "endColumn": 43,
+                    "endOffset": 13070
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 174,
+                        "endColumn": 43,
+                        "endOffset": 213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 13075,
+                    "endColumn": 37,
+                    "endOffset": 13108
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 272,
+                        "startColumn": 4,
+                        "startOffset": 19420,
+                        "endColumn": 37,
+                        "endOffset": 19453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 167,
+                    "startColumn": 4,
+                    "startOffset": 13113,
+                    "endColumn": 63,
+                    "endOffset": 13172
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 283,
+                        "startColumn": 4,
+                        "startOffset": 20344,
+                        "endColumn": 63,
+                        "endOffset": 20403
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 13177,
+                    "endColumn": 69,
+                    "endOffset": 13242
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 284,
+                        "startColumn": 4,
+                        "startOffset": 20408,
+                        "endColumn": 69,
+                        "endOffset": 20473
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 169,
+                    "startColumn": 4,
+                    "startOffset": 13247,
+                    "endColumn": 68,
+                    "endOffset": 13311
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 5555,
+                        "endColumn": 68,
+                        "endOffset": 5619
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 170,
+                    "startColumn": 4,
+                    "startOffset": 13316,
+                    "endColumn": 66,
+                    "endOffset": 13378
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 6822,
+                        "endColumn": 66,
+                        "endOffset": 6884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 171,
+                    "startColumn": 4,
+                    "startOffset": 13383,
+                    "endColumn": 70,
+                    "endOffset": 13449
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 6699,
+                        "endColumn": 70,
+                        "endOffset": 6765
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 172,
+                    "startColumn": 4,
+                    "startOffset": 13454,
+                    "endColumn": 77,
+                    "endOffset": 13527
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 5624,
+                        "endColumn": 77,
+                        "endOffset": 5697
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 173,
+                    "startColumn": 4,
+                    "startOffset": 13532,
+                    "endColumn": 93,
+                    "endOffset": 13621
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 5211,
+                        "endColumn": 93,
+                        "endOffset": 5300
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 174,
+                    "startColumn": 4,
+                    "startOffset": 13626,
+                    "endColumn": 124,
+                    "endOffset": 13746
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 5305,
+                        "endColumn": 124,
+                        "endOffset": 5425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 175,
+                    "startColumn": 4,
+                    "startOffset": 13751,
+                    "endColumn": 52,
+                    "endOffset": 13799
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 6646,
+                        "endColumn": 52,
+                        "endOffset": 6694
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 176,
+                    "startColumn": 4,
+                    "startOffset": 13804,
+                    "endColumn": 85,
+                    "endOffset": 13885
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 5702,
+                        "endColumn": 85,
+                        "endOffset": 5783
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 177,
+                    "startColumn": 4,
+                    "startOffset": 13890,
+                    "endColumn": 60,
+                    "endOffset": 13946
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 250,
+                        "startColumn": 4,
+                        "startOffset": 17775,
+                        "endColumn": 60,
+                        "endOffset": 17831
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 178,
+                    "startColumn": 4,
+                    "startOffset": 13951,
+                    "endColumn": 51,
+                    "endOffset": 13998
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 4,
+                        "startOffset": 6770,
+                        "endColumn": 51,
+                        "endOffset": 6817
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 179,
+                    "startColumn": 4,
+                    "startOffset": 14003,
+                    "endColumn": 55,
+                    "endOffset": 14054
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 6889,
+                        "endColumn": 55,
+                        "endOffset": 6940
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 180,
+                    "startColumn": 4,
+                    "startOffset": 14059,
+                    "endColumn": 83,
+                    "endOffset": 14138
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 3235,
+                        "endColumn": 83,
+                        "endOffset": 3314
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 181,
+                    "startColumn": 4,
+                    "startOffset": 14143,
+                    "endColumn": 70,
+                    "endOffset": 14209
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 198,
+                        "startColumn": 4,
+                        "startOffset": 14901,
+                        "endColumn": 70,
+                        "endOffset": 14967
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 182,
+                    "startColumn": 4,
+                    "startOffset": 14214,
+                    "endColumn": 54,
+                    "endOffset": 14264
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1092,
+                        "endColumn": 54,
+                        "endOffset": 1142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 183,
+                    "startColumn": 4,
+                    "startOffset": 14269,
+                    "endColumn": 53,
+                    "endOffset": 14318
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 880,
+                        "endColumn": 53,
+                        "endOffset": 929
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 184,
+                    "startColumn": 4,
+                    "startOffset": 14323,
+                    "endColumn": 54,
+                    "endOffset": 14373
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 773,
+                        "endColumn": 54,
+                        "endOffset": 823
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 185,
+                    "startColumn": 4,
+                    "startOffset": 14378,
+                    "endColumn": 46,
+                    "endOffset": 14420
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1045,
+                        "endColumn": 46,
+                        "endOffset": 1087
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 186,
+                    "startColumn": 4,
+                    "startOffset": 14425,
+                    "endColumn": 51,
+                    "endOffset": 14472
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 828,
+                        "endColumn": 51,
+                        "endOffset": 875
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 187,
+                    "startColumn": 4,
+                    "startOffset": 14477,
+                    "endColumn": 56,
+                    "endOffset": 14529
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 934,
+                        "endColumn": 56,
+                        "endOffset": 986
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 188,
+                    "startColumn": 4,
+                    "startOffset": 14534,
+                    "endColumn": 53,
+                    "endOffset": 14583
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 991,
+                        "endColumn": 53,
+                        "endOffset": 1040
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 189,
+                    "startColumn": 4,
+                    "startOffset": 14588,
+                    "endColumn": 79,
+                    "endOffset": 14663
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1225,
+                        "endColumn": 79,
+                        "endOffset": 1300
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 190,
+                    "startColumn": 4,
+                    "startOffset": 14668,
+                    "endColumn": 77,
+                    "endOffset": 14741
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1147,
+                        "endColumn": 77,
+                        "endOffset": 1220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 191,
+                    "startColumn": 4,
+                    "startOffset": 14746,
+                    "endColumn": 95,
+                    "endOffset": 14837
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 220,
+                        "startColumn": 4,
+                        "startOffset": 15906,
+                        "endColumn": 95,
+                        "endOffset": 15997
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 192,
+                    "startColumn": 4,
+                    "startOffset": 14842,
+                    "endColumn": 74,
+                    "endOffset": 14912
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 199,
+                        "startColumn": 4,
+                        "startOffset": 14972,
+                        "endColumn": 74,
+                        "endOffset": 15042
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 193,
+                    "startColumn": 4,
+                    "startOffset": 14917,
+                    "endColumn": 67,
+                    "endOffset": 14980
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 240,
+                        "startColumn": 4,
+                        "startOffset": 17095,
+                        "endColumn": 67,
+                        "endOffset": 17158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 194,
+                    "startColumn": 4,
+                    "startOffset": 14985,
+                    "endColumn": 78,
+                    "endOffset": 15059
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 302,
+                        "startColumn": 4,
+                        "startOffset": 21686,
+                        "endColumn": 78,
+                        "endOffset": 21760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 195,
+                    "startColumn": 4,
+                    "startOffset": 15064,
+                    "endColumn": 69,
+                    "endOffset": 15129
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 200,
+                        "startColumn": 4,
+                        "startOffset": 15047,
+                        "endColumn": 69,
+                        "endOffset": 15112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 196,
+                    "startColumn": 4,
+                    "startOffset": 15134,
+                    "endColumn": 78,
+                    "endOffset": 15208
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 195,
+                        "startColumn": 4,
+                        "startOffset": 14617,
+                        "endColumn": 78,
+                        "endOffset": 14691
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 197,
+                    "startColumn": 4,
+                    "startOffset": 15213,
+                    "endColumn": 105,
+                    "endOffset": 15314
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 6362,
+                        "endColumn": 105,
+                        "endOffset": 6463
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 198,
+                    "startColumn": 4,
+                    "startOffset": 15319,
+                    "endColumn": 90,
+                    "endOffset": 15405
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 5788,
+                        "endColumn": 90,
+                        "endOffset": 5874
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 199,
+                    "startColumn": 4,
+                    "startOffset": 15410,
+                    "endColumn": 93,
+                    "endOffset": 15499
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 224,
+                        "startColumn": 4,
+                        "startOffset": 16163,
+                        "endColumn": 93,
+                        "endOffset": 16252
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 200,
+                    "startColumn": 4,
+                    "startOffset": 15504,
+                    "endColumn": 190,
+                    "endOffset": 15690
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 303,
+                        "startColumn": 4,
+                        "startOffset": 21765,
+                        "endColumn": 190,
+                        "endOffset": 21951
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 201,
+                    "startColumn": 4,
+                    "startOffset": 15695,
+                    "endColumn": 79,
+                    "endOffset": 15770
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 244,
+                        "startColumn": 4,
+                        "startOffset": 17325,
+                        "endColumn": 79,
+                        "endOffset": 17400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 202,
+                    "startColumn": 4,
+                    "startOffset": 15775,
+                    "endColumn": 91,
+                    "endOffset": 15862
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 225,
+                        "startColumn": 4,
+                        "startOffset": 16257,
+                        "endColumn": 91,
+                        "endOffset": 16344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 203,
+                    "startColumn": 4,
+                    "startOffset": 15867,
+                    "endColumn": 46,
+                    "endOffset": 15909
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 269,
+                        "startColumn": 4,
+                        "startOffset": 19279,
+                        "endColumn": 46,
+                        "endOffset": 19321
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 204,
+                    "startColumn": 4,
+                    "startOffset": 15914,
+                    "endColumn": 114,
+                    "endOffset": 16024
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 275,
+                        "startColumn": 4,
+                        "startOffset": 19492,
+                        "endColumn": 114,
+                        "endOffset": 19602
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 205,
+                    "startColumn": 4,
+                    "startOffset": 16029,
+                    "endColumn": 116,
+                    "endOffset": 16141
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 277,
+                        "startColumn": 4,
+                        "startOffset": 19684,
+                        "endColumn": 116,
+                        "endOffset": 19796
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 206,
+                    "startColumn": 4,
+                    "startOffset": 16146,
+                    "endColumn": 76,
+                    "endOffset": 16218
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 276,
+                        "startColumn": 4,
+                        "startOffset": 19607,
+                        "endColumn": 76,
+                        "endOffset": 19679
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 207,
+                    "startColumn": 4,
+                    "startOffset": 16223,
+                    "endColumn": 70,
+                    "endOffset": 16289
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 278,
+                        "startColumn": 4,
+                        "startOffset": 19801,
+                        "endColumn": 70,
+                        "endOffset": 19867
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 208,
+                    "startColumn": 4,
+                    "startOffset": 16294,
+                    "endColumn": 79,
+                    "endOffset": 16369
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 259,
+                        "startColumn": 4,
+                        "startOffset": 18434,
+                        "endColumn": 79,
+                        "endOffset": 18509
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 209,
+                    "startColumn": 4,
+                    "startOffset": 16374,
+                    "endColumn": 105,
+                    "endOffset": 16475
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 258,
+                        "startColumn": 4,
+                        "startOffset": 18328,
+                        "endColumn": 105,
+                        "endOffset": 18429
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 210,
+                    "startColumn": 4,
+                    "startOffset": 16480,
+                    "endColumn": 112,
+                    "endOffset": 16588
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 294,
+                        "startColumn": 4,
+                        "startOffset": 20937,
+                        "endColumn": 112,
+                        "endOffset": 21045
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 211,
+                    "startColumn": 4,
+                    "startOffset": 16593,
+                    "endColumn": 124,
+                    "endOffset": 16713
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 218,
+                        "startColumn": 4,
+                        "startOffset": 15625,
+                        "endColumn": 124,
+                        "endOffset": 15745
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 212,
+                    "startColumn": 4,
+                    "startOffset": 16718,
+                    "endColumn": 164,
+                    "endOffset": 16878
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1632,
+                        "endColumn": 164,
+                        "endOffset": 1792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 213,
+                    "startColumn": 4,
+                    "startOffset": 16883,
+                    "endColumn": 48,
+                    "endOffset": 16927
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1525,
+                        "endColumn": 48,
+                        "endOffset": 1569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 214,
+                    "startColumn": 4,
+                    "startOffset": 16932,
+                    "endColumn": 82,
+                    "endOffset": 17010
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2100,
+                        "endColumn": 82,
+                        "endOffset": 2178
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 215,
+                    "startColumn": 4,
+                    "startOffset": 17015,
+                    "endColumn": 104,
+                    "endOffset": 17115
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1797,
+                        "endColumn": 104,
+                        "endOffset": 1897
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 216,
+                    "startColumn": 4,
+                    "startOffset": 17120,
+                    "endColumn": 69,
+                    "endOffset": 17185
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 253,
+                        "startColumn": 4,
+                        "startOffset": 17993,
+                        "endColumn": 69,
+                        "endOffset": 18058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 217,
+                    "startColumn": 4,
+                    "startOffset": 17190,
+                    "endColumn": 109,
+                    "endOffset": 17295
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 2183,
+                        "endColumn": 109,
+                        "endOffset": 2288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 218,
+                    "startColumn": 4,
+                    "startOffset": 17300,
+                    "endColumn": 45,
+                    "endOffset": 17341
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 7449,
+                        "endColumn": 45,
+                        "endOffset": 7490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 219,
+                    "startColumn": 4,
+                    "startOffset": 17346,
+                    "endColumn": 77,
+                    "endOffset": 17419
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 4,
+                        "startOffset": 7495,
+                        "endColumn": 77,
+                        "endOffset": 7568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 220,
+                    "startColumn": 4,
+                    "startOffset": 17424,
+                    "endColumn": 64,
+                    "endOffset": 17484
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 7573,
+                        "endColumn": 64,
+                        "endOffset": 7633
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 221,
+                    "startColumn": 4,
+                    "startOffset": 17489,
+                    "endColumn": 96,
+                    "endOffset": 17581
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 7638,
+                        "endColumn": 96,
+                        "endOffset": 7730
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 222,
+                    "startColumn": 4,
+                    "startOffset": 17586,
+                    "endColumn": 51,
+                    "endOffset": 17633
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 7314,
+                        "endColumn": 51,
+                        "endOffset": 7361
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 223,
+                    "startColumn": 4,
+                    "startOffset": 17638,
+                    "endColumn": 82,
+                    "endOffset": 17716
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 7366,
+                        "endColumn": 82,
+                        "endOffset": 7444
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 224,
+                    "startColumn": 4,
+                    "startOffset": 17721,
+                    "endColumn": 79,
+                    "endOffset": 17796
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 7735,
+                        "endColumn": 79,
+                        "endOffset": 7810
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 225,
+                    "startColumn": 4,
+                    "startOffset": 17801,
+                    "endColumn": 57,
+                    "endOffset": 17854
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 238,
+                        "startColumn": 4,
+                        "startOffset": 16990,
+                        "endColumn": 57,
+                        "endOffset": 17043
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 226,
+                    "startColumn": 4,
+                    "startOffset": 17859,
+                    "endColumn": 77,
+                    "endOffset": 17932
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 183,
+                        "startColumn": 4,
+                        "startOffset": 13730,
+                        "endColumn": 77,
+                        "endOffset": 13803
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 227,
+                    "startColumn": 4,
+                    "startOffset": 17937,
+                    "endColumn": 89,
+                    "endOffset": 18022
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 182,
+                        "startColumn": 4,
+                        "startOffset": 13640,
+                        "endColumn": 89,
+                        "endOffset": 13725
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 228,
+                    "startColumn": 4,
+                    "startOffset": 18027,
+                    "endColumn": 91,
+                    "endOffset": 18114
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 184,
+                        "startColumn": 4,
+                        "startOffset": 13808,
+                        "endColumn": 91,
+                        "endOffset": 13895
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 229,
+                    "startColumn": 4,
+                    "startOffset": 18119,
+                    "endColumn": 72,
+                    "endOffset": 18187
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 299,
+                        "startColumn": 4,
+                        "startOffset": 21379,
+                        "endColumn": 72,
+                        "endOffset": 21447
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 230,
+                    "startColumn": 4,
+                    "startOffset": 18192,
+                    "endColumn": 184,
+                    "endOffset": 18372
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 3349,
+                        "endColumn": 184,
+                        "endOffset": 3529
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 231,
+                    "startColumn": 4,
+                    "startOffset": 18377,
+                    "endColumn": 59,
+                    "endOffset": 18432
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 265,
+                        "startColumn": 4,
+                        "startOffset": 18941,
+                        "endColumn": 59,
+                        "endOffset": 18996
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 232,
+                    "startColumn": 4,
+                    "startOffset": 18437,
+                    "endColumn": 43,
+                    "endOffset": 18476
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 271,
+                        "startColumn": 4,
+                        "startOffset": 19376,
+                        "endColumn": 43,
+                        "endOffset": 19415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 233,
+                    "startColumn": 4,
+                    "startOffset": 18481,
+                    "endColumn": 176,
+                    "endOffset": 18653
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 281,
+                        "startColumn": 4,
+                        "startOffset": 20091,
+                        "endColumn": 176,
+                        "endOffset": 20263
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 234,
+                    "startColumn": 4,
+                    "startOffset": 18658,
+                    "endColumn": 75,
+                    "endOffset": 18729
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 282,
+                        "startColumn": 4,
+                        "startOffset": 20268,
+                        "endColumn": 75,
+                        "endOffset": 20339
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 235,
+                    "startColumn": 4,
+                    "startOffset": 18734,
+                    "endColumn": 39,
+                    "endOffset": 18769
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 296,
+                        "startColumn": 4,
+                        "startOffset": 21166,
+                        "endColumn": 39,
+                        "endOffset": 21201
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 236,
+                    "startColumn": 4,
+                    "startOffset": 18774,
+                    "endColumn": 57,
+                    "endOffset": 18827
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 257,
+                        "startColumn": 4,
+                        "startOffset": 18270,
+                        "endColumn": 57,
+                        "endOffset": 18323
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 237,
+                    "startColumn": 4,
+                    "startOffset": 18832,
+                    "endColumn": 54,
+                    "endOffset": 18882
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 236,
+                        "startColumn": 4,
+                        "startOffset": 16879,
+                        "endColumn": 54,
+                        "endOffset": 16929
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 238,
+                    "startColumn": 4,
+                    "startOffset": 18887,
+                    "endColumn": 98,
+                    "endOffset": 18981
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 150,
+                        "startColumn": 4,
+                        "startOffset": 11414,
+                        "endColumn": 98,
+                        "endOffset": 11508
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 239,
+                    "startColumn": 4,
+                    "startOffset": 18986,
+                    "endColumn": 81,
+                    "endOffset": 19063
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2027,
+                        "endColumn": 81,
+                        "endOffset": 2104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 240,
+                    "startColumn": 4,
+                    "startOffset": 19068,
+                    "endColumn": 64,
+                    "endOffset": 19128
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 138,
+                        "startColumn": 4,
+                        "startOffset": 10707,
+                        "endColumn": 64,
+                        "endOffset": 10767
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 241,
+                    "startColumn": 4,
+                    "startOffset": 19133,
+                    "endColumn": 79,
+                    "endOffset": 19208
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 131,
+                        "startColumn": 4,
+                        "startOffset": 10124,
+                        "endColumn": 79,
+                        "endOffset": 10199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 242,
+                    "startColumn": 4,
+                    "startOffset": 19213,
+                    "endColumn": 199,
+                    "endOffset": 19408
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 4,
+                        "startOffset": 10204,
+                        "endColumn": 199,
+                        "endOffset": 10399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 243,
+                    "startColumn": 4,
+                    "startOffset": 19413,
+                    "endColumn": 56,
+                    "endOffset": 19465
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 133,
+                        "startColumn": 4,
+                        "startOffset": 10404,
+                        "endColumn": 56,
+                        "endOffset": 10456
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 244,
+                    "startColumn": 4,
+                    "startOffset": 19470,
+                    "endColumn": 59,
+                    "endOffset": 19525
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 4,
+                        "startOffset": 9924,
+                        "endColumn": 59,
+                        "endOffset": 9979
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 245,
+                    "startColumn": 4,
+                    "startOffset": 19530,
+                    "endColumn": 71,
+                    "endOffset": 19597
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 130,
+                        "startColumn": 4,
+                        "startOffset": 10052,
+                        "endColumn": 71,
+                        "endOffset": 10119
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 246,
+                    "startColumn": 4,
+                    "startOffset": 19602,
+                    "endColumn": 66,
+                    "endOffset": 19664
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 4,
+                        "startOffset": 9473,
+                        "endColumn": 66,
+                        "endOffset": 9535
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 247,
+                    "startColumn": 4,
+                    "startOffset": 19669,
+                    "endColumn": 65,
+                    "endOffset": 19730
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 9540,
+                        "endColumn": 65,
+                        "endOffset": 9601
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 248,
+                    "startColumn": 4,
+                    "startOffset": 19735,
+                    "endColumn": 67,
+                    "endOffset": 19798
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 4,
+                        "startOffset": 9984,
+                        "endColumn": 67,
+                        "endOffset": 10047
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 249,
+                    "startColumn": 4,
+                    "startOffset": 19803,
+                    "endColumn": 48,
+                    "endOffset": 19847
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 4,
+                        "startOffset": 10461,
+                        "endColumn": 48,
+                        "endOffset": 10505
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 250,
+                    "startColumn": 4,
+                    "startOffset": 19852,
+                    "endColumn": 86,
+                    "endOffset": 19934
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 137,
+                        "startColumn": 4,
+                        "startOffset": 10620,
+                        "endColumn": 86,
+                        "endOffset": 10702
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 251,
+                    "startColumn": 4,
+                    "startOffset": 19939,
+                    "endColumn": 54,
+                    "endOffset": 19989
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 4,
+                        "startOffset": 10565,
+                        "endColumn": 54,
+                        "endOffset": 10615
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 252,
+                    "startColumn": 4,
+                    "startOffset": 19994,
+                    "endColumn": 54,
+                    "endOffset": 20044
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 4,
+                        "startOffset": 10510,
+                        "endColumn": 54,
+                        "endOffset": 10560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 253,
+                    "startColumn": 4,
+                    "startOffset": 20049,
+                    "endColumn": 51,
+                    "endOffset": 20096
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 202,
+                        "startColumn": 4,
+                        "startOffset": 15118,
+                        "endColumn": 51,
+                        "endOffset": 15165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 254,
+                    "startColumn": 4,
+                    "startOffset": 20101,
+                    "endColumn": 58,
+                    "endOffset": 20155
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 260,
+                        "startColumn": 4,
+                        "startOffset": 18514,
+                        "endColumn": 58,
+                        "endOffset": 18568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 255,
+                    "startColumn": 4,
+                    "startOffset": 20160,
+                    "endColumn": 94,
+                    "endOffset": 20250
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 261,
+                        "startColumn": 4,
+                        "startOffset": 18573,
+                        "endColumn": 94,
+                        "endOffset": 18663
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 256,
+                    "startColumn": 4,
+                    "startOffset": 20255,
+                    "endColumn": 94,
+                    "endOffset": 20345
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 267,
+                        "startColumn": 4,
+                        "startOffset": 19076,
+                        "endColumn": 94,
+                        "endOffset": 19166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 257,
+                    "startColumn": 4,
+                    "startOffset": 20350,
+                    "endColumn": 107,
+                    "endOffset": 20453
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 268,
+                        "startColumn": 4,
+                        "startOffset": 19171,
+                        "endColumn": 107,
+                        "endOffset": 19274
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 258,
+                    "startColumn": 4,
+                    "startOffset": 20458,
+                    "endColumn": 51,
+                    "endOffset": 20505
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1473,
+                        "endColumn": 51,
+                        "endOffset": 1520
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 259,
+                    "startColumn": 4,
+                    "startOffset": 20510,
+                    "endColumn": 48,
+                    "endOffset": 20554
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 262,
+                        "startColumn": 4,
+                        "startOffset": 18668,
+                        "endColumn": 48,
+                        "endOffset": 18712
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 260,
+                    "startColumn": 4,
+                    "startOffset": 20559,
+                    "endColumn": 100,
+                    "endOffset": 20655
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2109,
+                        "endColumn": 100,
+                        "endOffset": 2205
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 261,
+                    "startColumn": 4,
+                    "startOffset": 20660,
+                    "endColumn": 123,
+                    "endOffset": 20779
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 146,
+                        "startColumn": 4,
+                        "startOffset": 11185,
+                        "endColumn": 123,
+                        "endOffset": 11304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 262,
+                    "startColumn": 4,
+                    "startOffset": 20784,
+                    "endColumn": 56,
+                    "endOffset": 20836
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 145,
+                        "startColumn": 4,
+                        "startOffset": 11128,
+                        "endColumn": 56,
+                        "endOffset": 11180
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 263,
+                    "startColumn": 4,
+                    "startOffset": 20841,
+                    "endColumn": 64,
+                    "endOffset": 20901
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 144,
+                        "startColumn": 4,
+                        "startOffset": 11063,
+                        "endColumn": 64,
+                        "endOffset": 11123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 264,
+                    "startColumn": 4,
+                    "startOffset": 20906,
+                    "endColumn": 81,
+                    "endOffset": 20983
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 143,
+                        "startColumn": 4,
+                        "startOffset": 10981,
+                        "endColumn": 81,
+                        "endOffset": 11058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 265,
+                    "startColumn": 4,
+                    "startOffset": 20988,
+                    "endColumn": 111,
+                    "endOffset": 21095
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 142,
+                        "startColumn": 4,
+                        "startOffset": 10869,
+                        "endColumn": 111,
+                        "endOffset": 10976
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 266,
+                    "startColumn": 4,
+                    "startOffset": 21100,
+                    "endColumn": 70,
+                    "endOffset": 21166
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 141,
+                        "startColumn": 4,
+                        "startOffset": 10798,
+                        "endColumn": 70,
+                        "endOffset": 10864
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 267,
+                    "startColumn": 4,
+                    "startOffset": 21171,
+                    "endColumn": 73,
+                    "endOffset": 21240
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 290,
+                        "startColumn": 4,
+                        "startOffset": 20662,
+                        "endColumn": 73,
+                        "endOffset": 20731
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 268,
+                    "startColumn": 4,
+                    "startOffset": 21245,
+                    "endColumn": 49,
+                    "endOffset": 21290
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 270,
+                        "startColumn": 4,
+                        "startOffset": 19326,
+                        "endColumn": 49,
+                        "endOffset": 19371
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 269,
+                    "startColumn": 4,
+                    "startOffset": 21295,
+                    "endColumn": 139,
+                    "endOffset": 21430
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 279,
+                        "startColumn": 4,
+                        "startOffset": 19872,
+                        "endColumn": 139,
+                        "endOffset": 20007
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 270,
+                    "startColumn": 4,
+                    "startOffset": 21435,
+                    "endColumn": 78,
+                    "endOffset": 21509
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 280,
+                        "startColumn": 4,
+                        "startOffset": 20012,
+                        "endColumn": 78,
+                        "endOffset": 20086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 271,
+                    "startColumn": 4,
+                    "startOffset": 21514,
+                    "endColumn": 47,
+                    "endOffset": 21557
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 538,
+                        "endColumn": 47,
+                        "endOffset": 581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 272,
+                    "startColumn": 4,
+                    "startOffset": 21562,
+                    "endColumn": 48,
+                    "endOffset": 21606
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 489,
+                        "endColumn": 48,
+                        "endOffset": 533
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 273,
+                    "startColumn": 4,
+                    "startOffset": 21611,
+                    "endColumn": 51,
+                    "endOffset": 21658
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 160,
+                        "startColumn": 4,
+                        "startOffset": 12298,
+                        "endColumn": 51,
+                        "endOffset": 12345
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 274,
+                    "startColumn": 4,
+                    "startOffset": 21663,
+                    "endColumn": 39,
+                    "endOffset": 21698
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 243,
+                        "startColumn": 4,
+                        "startOffset": 17285,
+                        "endColumn": 39,
+                        "endOffset": 17320
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 275,
+                    "startColumn": 4,
+                    "startOffset": 21703,
+                    "endColumn": 77,
+                    "endOffset": 21776
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1395,
+                        "endColumn": 77,
+                        "endOffset": 1468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 276,
+                    "startColumn": 4,
+                    "startOffset": 21781,
+                    "endColumn": 45,
+                    "endOffset": 21822
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 221,
+                        "startColumn": 4,
+                        "startOffset": 16002,
+                        "endColumn": 45,
+                        "endOffset": 16043
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 277,
+                    "startColumn": 4,
+                    "startOffset": 21827,
+                    "endColumn": 112,
+                    "endOffset": 21935
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 301,
+                        "startColumn": 4,
+                        "startOffset": 21573,
+                        "endColumn": 112,
+                        "endOffset": 21681
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 278,
+                    "startColumn": 4,
+                    "startOffset": 21940,
+                    "endColumn": 40,
+                    "endOffset": 21976
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 188,
+                        "startColumn": 4,
+                        "startOffset": 14139,
+                        "endColumn": 40,
+                        "endOffset": 14175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 279,
+                    "startColumn": 4,
+                    "startOffset": 21981,
+                    "endColumn": 155,
+                    "endOffset": 22132
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 219,
+                        "startColumn": 4,
+                        "startOffset": 15750,
+                        "endColumn": 155,
+                        "endOffset": 15901
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 280,
+                    "startColumn": 4,
+                    "startOffset": 22137,
+                    "endColumn": 181,
+                    "endOffset": 22314
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 187,
+                        "startColumn": 4,
+                        "startOffset": 13957,
+                        "endColumn": 181,
+                        "endOffset": 14134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 281,
+                    "startColumn": 4,
+                    "startOffset": 22319,
+                    "endColumn": 177,
+                    "endOffset": 22492
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 6468,
+                        "endColumn": 177,
+                        "endOffset": 6641
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 282,
+                    "startColumn": 4,
+                    "startOffset": 22497,
+                    "endColumn": 131,
+                    "endOffset": 22624
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 6230,
+                        "endColumn": 131,
+                        "endOffset": 6357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 283,
+                    "startColumn": 4,
+                    "startOffset": 22629,
+                    "endColumn": 150,
+                    "endOffset": 22775
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 586,
+                        "endColumn": 150,
+                        "endOffset": 732
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 284,
+                    "startColumn": 4,
+                    "startOffset": 22780,
+                    "endColumn": 151,
+                    "endOffset": 22927
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 5879,
+                        "endColumn": 151,
+                        "endOffset": 6026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 285,
+                    "startColumn": 4,
+                    "startOffset": 22932,
+                    "endColumn": 101,
+                    "endOffset": 23029
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 6128,
+                        "endColumn": 101,
+                        "endOffset": 6225
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 286,
+                    "startColumn": 4,
+                    "startOffset": 23034,
+                    "endColumn": 96,
+                    "endOffset": 23126
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 6031,
+                        "endColumn": 96,
+                        "endOffset": 6123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 287,
+                    "startColumn": 4,
+                    "startOffset": 23131,
+                    "endColumn": 164,
+                    "endOffset": 23291
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 279,
+                        "endColumn": 164,
+                        "endOffset": 439
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 288,
+                    "startColumn": 4,
+                    "startOffset": 23296,
+                    "endColumn": 112,
+                    "endOffset": 23404
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 264,
+                        "startColumn": 4,
+                        "startOffset": 18828,
+                        "endColumn": 112,
+                        "endOffset": 18936
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 289,
+                    "startColumn": 4,
+                    "startOffset": 23409,
+                    "endColumn": 110,
+                    "endOffset": 23515
+                },
+                "from": {
+                    "file": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml",
+                    "position": {
+                        "startLine": 263,
+                        "startColumn": 4,
+                        "startOffset": 18717,
+                        "endColumn": 110,
+                        "endOffset": 18823
+                    }
+                }
+            }
+        ]
+    }
+]

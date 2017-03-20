@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 13,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 6,
+                        "endColumn": 13,
+                        "endOffset": 327
+                    }
+                }
+            }
+        ]
+    }
+]

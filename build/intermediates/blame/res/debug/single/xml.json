@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/xml/prefs.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/xml/prefs.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/xml/shortcuts.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/xml/shortcuts.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/xml/module_prefs.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/xml/module_prefs.xml"
+    }
+]

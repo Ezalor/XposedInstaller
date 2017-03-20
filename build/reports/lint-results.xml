@@ -1,0 +1,1712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 2.3.0">
+
+    <issue
+        id="DefaultLocale"
+        severity="Warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`."
+        category="Correctness"
+        priority="6"
+        summary="Implied default locale in case conversion"
+        explanation="Calling `String#toLowerCase()` or `#toUpperCase()` *without specifying an explicit locale* is a common source of bugs. The reason for that is that those methods will use the current locale on the user&apos;s device, and even though the code appears to work correctly when you are developing the app, it will fail in some locales. For example, in the Turkish locale, the uppercase replacement for `i` is *not* `I`.&#xA;&#xA;If you want the methods to just perform ASCII replacement, for example to convert an enum name, call `String#toUpperCase(Locale.US)` instead. If you really want to use the current locale, call `String#toUpperCase(Locale.getDefault())` instead."
+        url="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        urls="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        errorLine1="        String manufacturer = Build.MANUFACTURER.toLowerCase();"
+        errorLine2="                                                 ~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/installation/StatusInstallerFragment.java"
+            line="356"
+            column="50"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `elevation` is only used in API level 21 and higher (current min is 16)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance of functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        android:elevation=&quot;4dp&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/activity_welcome.xml"
+            line="34"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `elevation` is only used in API level 21 and higher (current min is 16)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance of functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="    android:elevation=&quot;2dp&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/download_moreinfo.xml"
+            line="9"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `elevation` is only used in API level 21 and higher (current min is 16)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance of functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="    android:elevation=&quot;2dip&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/list_item_version.xml"
+            line="12"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `elevation` is only used in API level 21 and higher (current min is 16)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance of functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="              android:elevation=&quot;2dp&quot;"
+        errorLine2="              ~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/list_sticky_header_download.xml"
+            line="6"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `shortcutId` is only used in API level 25 and higher (current min is 16)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance of functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        android:shortcutId=&quot;modules&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/xml/shortcuts.xml"
+            line="6"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `shortcutLongLabel` is only used in API level 25 and higher (current min is 16)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance of functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        android:shortcutLongLabel=&quot;@string/nav_item_modules&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/xml/shortcuts.xml"
+            line="7"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `shortcutShortLabel` is only used in API level 25 and higher (current min is 16)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance of functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        android:shortcutShortLabel=&quot;@string/nav_item_modules&quot;>"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/xml/shortcuts.xml"
+            line="8"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `shortcutId` is only used in API level 25 and higher (current min is 16)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance of functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        android:shortcutId=&quot;downloads&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/xml/shortcuts.xml"
+            line="22"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `shortcutLongLabel` is only used in API level 25 and higher (current min is 16)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance of functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        android:shortcutLongLabel=&quot;@string/nav_item_download&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/xml/shortcuts.xml"
+            line="23"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `shortcutShortLabel` is only used in API level 25 and higher (current min is 16)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance of functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        android:shortcutShortLabel=&quot;@string/nav_item_download&quot;>"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/xml/shortcuts.xml"
+            line="24"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `elevation` is only used in API level 21 and higher (current min is 16)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance of functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="            android:elevation=&quot;2dp&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/status_installer.xml"
+            line="17"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="InflateParams"
+        severity="Warning"
+        message="Avoid passing `null` as the view root (needed to resolve layout parameters on the inflated layout&apos;s root element)"
+        category="Correctness"
+        priority="5"
+        summary="Layout Inflation without a Parent"
+        explanation="When inflating a layout, avoid passing in null as the parent view, since otherwise any layout parameters on the root of the inflated layout will be ignored."
+        url="http://www.doubleencore.com/2013/05/layout-inflation-as-intended"
+        urls="http://www.doubleencore.com/2013/05/layout-inflation-as-intended"
+        errorLine1="            final View dontShowAgainView = inflater.inflate(R.layout.dialog_install_warning, null);"
+        errorLine2="                                                                                             ~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/installation/AdvancedInstallerFragment.java"
+            line="96"
+            column="94"/>
+    </issue>
+
+    <issue
+        id="InflateParams"
+        severity="Warning"
+        message="Avoid passing `null` as the view root (needed to resolve layout parameters on the inflated layout&apos;s root element)"
+        category="Correctness"
+        priority="5"
+        summary="Layout Inflation without a Parent"
+        explanation="When inflating a layout, avoid passing in null as the parent view, since otherwise any layout parameters on the root of the inflated layout will be ignored."
+        url="http://www.doubleencore.com/2013/05/layout-inflation-as-intended"
+        urls="http://www.doubleencore.com/2013/05/layout-inflation-as-intended"
+        errorLine1="                view = inflater.inflate(R.layout.list_item_version, null, true);"
+        errorLine2="                                                                    ~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/DownloadDetailsVersionsFragment.java"
+            line="205"
+            column="69"/>
+    </issue>
+
+    <issue
+        id="InflateParams"
+        severity="Warning"
+        message="Avoid passing `null` as the view root (needed to resolve layout parameters on the inflated layout&apos;s root element)"
+        category="Correctness"
+        priority="5"
+        summary="Layout Inflation without a Parent"
+        explanation="When inflating a layout, avoid passing in null as the parent view, since otherwise any layout parameters on the root of the inflated layout will be ignored."
+        url="http://www.doubleencore.com/2013/05/layout-inflation-as-intended"
+        urls="http://www.doubleencore.com/2013/05/layout-inflation-as-intended"
+        errorLine1="            final View dontShowAgainView = inflater.inflate(R.layout.dialog_install_warning, null);"
+        errorLine2="                                                                                             ~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/LogsFragment.java"
+            line="83"
+            column="94"/>
+    </issue>
+
+    <issue
+        id="VectorRaster"
+        severity="Warning"
+        message="Resource references will not work correctly in images generated for this vector icon for API &lt; 21; check generated icon to make sure it looks acceptable"
+        category="Correctness"
+        priority="5"
+        summary="Vector Image Generation"
+        explanation="Vector icons require API 21, but when using Android Gradle plugin 1.4 or higher, vectors placed in the `drawable` folder are automatically moved to `drawable-*dpi-v21` and a bitmap image is generated each `drawable-*dpi` folder instead, for backwards compatibility (provided `minSdkVersion` is less than 21.).&#xA;&#xA;However, there are some limitations to this vector image generation, and this lint check flags elements and attributes that are not fully supported. You should manually check whether the generated output is acceptable for those older devices."
+        errorLine1="        android:fillColor=&quot;@color/darker_green&quot;"
+        errorLine2="                           ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/drawable-anydpi/ic_update.xml"
+            line="7"
+            column="28"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@color/background_material_light` which is marked as private in com.android.support:appcompat-v7. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;color name=&quot;background_material_light&quot;>#ffeeeeee&lt;/color>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values/colors.xml"
+            line="16"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="Overriding `@color/background_material_dark` which is marked as private in com.android.support:appcompat-v7. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="    &lt;color name=&quot;background_material_dark&quot;>#ff303030&lt;/color>"
+        errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values/colors.xml"
+            line="25"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="The resource `@color/background_material_light` is marked as private in com.android.support:appcompat-v7"
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="        &lt;item name=&quot;android:windowBackground&quot;>@color/background_material_light&lt;/item>"
+        errorLine2="                                              ^">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-v21/styles.xml"
+            line="6"
+            column="47"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="The resource `@color/background_material_dark` is marked as private in com.android.support:appcompat-v7"
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="        &lt;item name=&quot;android:windowBackground&quot;>@color/background_material_dark&lt;/item>"
+        errorLine2="                                              ^">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-v21/styles.xml"
+            line="18"
+            column="47"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="The resource `@color/background_material_light` is marked as private in com.android.support:appcompat-v7"
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="        &lt;item name=&quot;android:windowBackground&quot;>@color/background_material_light&lt;/item>"
+        errorLine2="                                              ^">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values/styles.xml"
+            line="20"
+            column="47"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        severity="Warning"
+        message="The resource `@color/background_material_dark` is marked as private in com.android.support:appcompat-v7"
+        category="Correctness"
+        priority="3"
+        summary="Using private resources"
+        explanation="Private resources should not be referenced; the may not be present everywhere, and even where they are they may disappear without notice.&#xA;&#xA;To fix this, copy the resource into your own project instead."
+        errorLine1="        &lt;item name=&quot;android:windowBackground&quot;>@color/background_material_dark&lt;/item>"
+        errorLine2="                                              ^">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values/styles.xml"
+            line="31"
+            column="47"/>
+    </issue>
+
+    <issue
+        id="Deprecated"
+        severity="Warning"
+        message="`android:singleLine` is deprecated: Use `maxLines=&quot;1&quot;` instead"
+        category="Correctness"
+        priority="2"
+        summary="Using deprecated resources"
+        explanation="Deprecated views, attributes and so on are deprecated because there is a better way to do something. Do it that new way. You&apos;ve been warned."
+        errorLine1="        android:singleLine=&quot;true&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/icon_preference_item.xml"
+            line="41"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="Deprecated"
+        severity="Warning"
+        message="`android:singleLine` is deprecated: False is the default, so just remove the attribute"
+        category="Correctness"
+        priority="2"
+        summary="Using deprecated resources"
+        explanation="Deprecated views, attributes and so on are deprecated because there is a better way to do something. Do it that new way. You&apos;ve been warned."
+        errorLine1="                    android:singleLine=&quot;false&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/list_item_module.xml"
+            line="49"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="Deprecated"
+        severity="Warning"
+        message="`android:singleLine` is deprecated: Use `maxLines=&quot;1&quot;` instead"
+        category="Correctness"
+        priority="2"
+        summary="Using deprecated resources"
+        explanation="Deprecated views, attributes and so on are deprecated because there is a better way to do something. Do it that new way. You&apos;ve been warned."
+        errorLine1="                    android:singleLine=&quot;true&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/list_item_module.xml"
+            line="63"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="Typos"
+        severity="Warning"
+        message="&quot;funcion&quot; is a common misspelling; did you mean &quot;función&quot; ?"
+        category="Correctness:Messages"
+        priority="7"
+        summary="Spelling error"
+        explanation="This check looks through the string definitions, and if it finds any words that look like likely misspellings, they are flagged."
+        errorLine1="    &lt;string name=&quot;reboot_failed&quot;>El Reinicio falló. Por favor use la funcion normal de reinicio del dispositivo.&lt;/string>"
+        errorLine2="                                                                     ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-es/strings.xml"
+            line="32"
+            column="70"/>
+    </issue>
+
+    <issue
+        id="Typos"
+        severity="Warning"
+        message="&quot;interface&quot; is a common misspelling; did you mean &quot;interfaz&quot; ?"
+        category="Correctness:Messages"
+        priority="7"
+        summary="Spelling error"
+        explanation="This check looks through the string definitions, and if it finds any words that look like likely misspellings, they are flagged."
+        errorLine1="    &lt;string name=&quot;module_no_ui&quot;>Éste módulo no posee una interface de usuario&lt;/string>"
+        errorLine2="                                                         ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-es/strings.xml"
+            line="73"
+            column="58"/>
+    </issue>
+
+    <issue
+        id="Typos"
+        severity="Warning"
+        message="&quot;fué&quot; is a common misspelling; did you mean &quot;fue&quot; ?"
+        category="Correctness:Messages"
+        priority="7"
+        summary="Spelling error"
+        explanation="This check looks through the string definitions, and if it finds any words that look like likely misspellings, they are flagged."
+        errorLine1="    &lt;string name=&quot;xposed_module_list_updated&quot;>La lista de módulos Xposed fué actualizada\nLos cambios tendrán efecto después de reiniciar&lt;/string>"
+        errorLine2="                                                                         ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-es/strings.xml"
+            line="75"
+            column="74"/>
+    </issue>
+
+    <issue
+        id="Typos"
+        severity="Warning"
+        message="&quot;fué&quot; is a common misspelling; did you mean &quot;fue&quot; ?"
+        category="Correctness:Messages"
+        priority="7"
+        summary="Spelling error"
+        explanation="This check looks through the string definitions, and if it finds any words that look like likely misspellings, they are flagged."
+        errorLine1="    &lt;string name=&quot;warning_min_version_too_low&quot;>Éste módulo fué creado para la versión del XposedBridge %1$d, pero debido a incompatibilidades de los cambios hechos en la versión %2$d, han sido deshabilitados.&lt;/string>"
+        errorLine2="                                                           ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-es/strings.xml"
+            line="80"
+            column="60"/>
+    </issue>
+
+    <issue
+        id="Typos"
+        severity="Warning"
+        message="&quot;disponivel&quot; is a common misspelling; did you mean &quot;disponível&quot; ?"
+        category="Correctness:Messages"
+        priority="7"
+        summary="Spelling error"
+        explanation="This check looks through the string definitions, and if it finds any words that look like likely misspellings, they are flagged."
+        errorLine1="    &lt;string name=&quot;download_test_version_not_shown&quot;>Uma versão de testes está disponivel, entretanto não é exibida devido às suas configurações globais ou específicas do módulo.&lt;/string>"
+        errorLine2="                                                                             ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pt-rBR/strings.xml"
+            line="120"
+            column="78"/>
+    </issue>
+
+    <issue
+        id="PluralsCandidate"
+        severity="Warning"
+        message="Formatting %d followed by words (&quot;occurred&quot;): This should probably be a plural rather than a string"
+        category="Correctness:Messages"
+        priority="5"
+        summary="Potential Plurals"
+        explanation="This lint check looks for potential errors in internationalization where you have translated a message which involves a quantity and it looks like other parts of the string may need grammatical changes.&#xA;&#xA;For example, rather than something like this:&#xA;  &lt;string name=&quot;try_again&quot;>Try again in %d seconds.&lt;/string>&#xA;you should be using a plural:&#xA;   &lt;plurals name=&quot;try_again&quot;>&#xA;        &lt;item quantity=&quot;one&quot;>Try again in %d second&lt;/item>&#xA;        &lt;item quantity=&quot;other&quot;>Try again in %d seconds&lt;/item>&#xA;    &lt;/plurals>&#xA;This will ensure that in other languages the right set of translations are provided for the different quantity classes.&#xA;&#xA;(This check depends on some heuristics, so it may not accurately determine whether a string really should be a quantity. You can use tools:ignore to filter out false positives."
+        url="http://developer.android.com/guide/topics/resources/string-resource.html#Plurals"
+        urls="http://developer.android.com/guide/topics/resources/string-resource.html#Plurals"
+        errorLine1="    &lt;string name=&quot;flash_error_default&quot;>Error %d occurred&lt;/string>"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values/strings.xml"
+            line="316"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StringFormatCount"
+        severity="Warning"
+        message="Inconsistent number of arguments in formatting string `welcome_framework_update_available`; found both 0 and 1"
+        category="Correctness:Messages"
+        priority="5"
+        summary="Formatting argument types incomplete or inconsistent"
+        explanation="When a formatted string takes arguments, it usually needs to reference the same arguments in all translations (or all arguments if there are no translations.&#xA;&#xA;There are cases where this is not the case, so this issue is a warning rather than an error by default. However, this usually happens when a language is not translated or updated correctly."
+        errorLine1="    &lt;string name=&quot;welcome_framework_update_available&quot;>An update for the Xposed Framework is available (%s).&lt;/string>"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values/strings.xml"
+            line="12"
+            column="5"/>
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-zh-rTW/strings.xml"
+            line="12"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StringFormatCount"
+        severity="Warning"
+        message="Inconsistent number of arguments in formatting string `install_known_issue`; found both 0 and 1"
+        category="Correctness:Messages"
+        priority="5"
+        summary="Formatting argument types incomplete or inconsistent"
+        explanation="When a formatted string takes arguments, it usually needs to reference the same arguments in all translations (or all arguments if there are no translations.&#xA;&#xA;There are cases where this is not the case, so this issue is a warning rather than an error by default. However, this usually happens when a language is not translated or updated correctly."
+        errorLine1="    &lt;string name=&quot;install_known_issue&quot;>There seems to be a known issue (\&quot;%s\&quot;) with your ROM. Installing Xposed might not work or lead to severe problems. Click here for details about the issue.&lt;/string>"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values/strings.xml"
+            line="40"
+            column="5"/>
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-pl/strings.xml"
+            line="40"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="ExportedReceiver"
+        severity="Warning"
+        message="Exported receiver does not require permission"
+        category="Security"
+        priority="5"
+        summary="Receiver does not require permission"
+        explanation="Exported receivers (receivers which either set `exported=true` or contain an intent-filter and do not specify `exported=false`) should define a permission that an entity must have in order to launch the receiver or bind to it. Without this, any application can use this receiver."
+        errorLine1="        &lt;receiver"
+        errorLine2="        ^">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml"
+            line="195"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static ViewPager mPager;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/installation/AdvancedInstallerFragment.java"
+            line="60"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static Activity sActivity;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/installation/BaseAdvancedInstaller.java"
+            line="55"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields (static reference to `RepoLoader` which has field `mSwipeRefreshLayout` pointing to `SwipeRefreshLayout`); this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static RepoLoader sRepoLoader = RepoLoader.getInstance();"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/DownloadDetailsActivity.java"
+            line="44"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    public static Activity sActivity;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/DownloadFragment.java"
+            line="52"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields (static reference to `XposedApp` which has field `mCurrentActivity` pointing to `Activity`); this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static final XposedApp mApp = XposedApp.getInstance();"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/util/DownloadsUtil.java"
+            line="44"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields (static reference to `RepoLoader` which has field `mSwipeRefreshLayout` pointing to `SwipeRefreshLayout`); this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static RepoLoader mRepoLoader;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/ModulesBookmark.java"
+            line="50"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static View container;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/ModulesBookmark.java"
+            line="51"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static Context sContext = null;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/util/NotificationUtil.java"
+            line="42"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields (static reference to `RepoLoader` which has field `mSwipeRefreshLayout` pointing to `SwipeRefreshLayout`); this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static RepoLoader mInstance = null;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/util/RepoLoader.java"
+            line="51"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static Activity sActivity;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/installation/StatusInstallerFragment.java"
+            line="49"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static ImageView mErrorIcon;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/installation/StatusInstallerFragment.java"
+            line="52"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static View mUpdateView;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/installation/StatusInstallerFragment.java"
+            line="53"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static View mUpdateButton;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/installation/StatusInstallerFragment.java"
+            line="54"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static View mHintContainer;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/installation/StatusInstallerFragment.java"
+            line="55"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static TextView mHint;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/installation/StatusInstallerFragment.java"
+            line="56"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static TextView mErrorTv;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/installation/StatusInstallerFragment.java"
+            line="57"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields (static reference to `XposedApp` which has field `mCurrentActivity` pointing to `Activity`); this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static XposedApp mInstance = null;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/XposedApp.java"
+            line="64"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UseCompoundDrawables"
+        severity="Warning"
+        message="This tag and its children can be replaced by one `&lt;TextView/>` and a compound drawable"
+        category="Performance"
+        priority="6"
+        summary="Node can be replaced by a `TextView` with compound drawables"
+        explanation="A `LinearLayout` which contains an `ImageView` and a `TextView` can be more efficiently handled as a compound drawable (a single TextView, using the `drawableTop`, `drawableLeft`, `drawableRight` and/or `drawableBottom` attributes to draw one or more images adjacent to the text).&#xA;&#xA;If the two widgets are offset from each other with margins, this can be replaced with a `drawablePadding` attribute.&#xA;&#xA;There&apos;s a lint quickfix to perform this conversion in the Eclipse plugin."
+        errorLine1="                    &lt;LinearLayout"
+        errorLine2="                    ^">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/status_installer.xml"
+            line="105"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.app_process` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;app_process&quot; translatable=&quot;false&quot;>app_process&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values/donottranslate.xml"
+            line="5"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.xposedbridge` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;xposedbridge&quot; translatable=&quot;false&quot;>XposedBridge.jar&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values/donottranslate.xml"
+            line="6"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.none` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;none&quot; translatable=&quot;false&quot;>---&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values/donottranslate.xml"
+            line="7"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.about_support` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;about_support&quot; translatable=&quot;false&quot;>http://forum.xda-developers.com/xposed&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values/donottranslate.xml"
+            line="12"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.about_libraries` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;about_libraries&quot; translatable=&quot;false&quot;>&lt;a href=&quot;https://github.com/emilsjolander/StickyListHeaders&quot;>StickyListHeaders&lt;/a>\n&lt;a href=&quot;https://github.com/Chainfire/libsuperuser&quot;>libsuperuser&lt;/a>\n&lt;a href=&quot;https://github.com/afollestad/material-dialogs&quot;>MaterialDialogs&lt;/a>&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values/donottranslate.xml"
+            line="13"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UselessParent"
+        severity="Warning"
+        message="This `ScrollView` layout or its `RelativeLayout` parent is possibly useless"
+        category="Performance"
+        priority="2"
+        summary="Useless parent layout"
+        explanation="A layout with children that has no siblings, is not a scrollview or a root layout, and does not have a background, can be removed and have its children moved directly into the parent for a flatter and more efficient layout hierarchy."
+        errorLine1="    &lt;ScrollView"
+        errorLine2="    ^">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/tab_logs.xml"
+            line="8"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        severity="Warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        category="Usability:Typography"
+        priority="5"
+        summary="Ellipsis string can be replaced with ellipsis character"
+        explanation="You can replace the string &quot;...&quot; with a dedicated ellipsis character, ellipsis character (…, &amp;#8230;). This can help make the text more readable."
+        url="http://en.wikipedia.org/wiki/Ellipsis"
+        urls="http://en.wikipedia.org/wiki/Ellipsis"
+        errorLine1="    &lt;string name=&quot;nav_item_about&quot;>Acerca de...&lt;/string>"
+        errorLine2="                                  ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-es/strings.xml"
+            line="21"
+            column="35"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        severity="Warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        category="Usability:Typography"
+        priority="5"
+        summary="Ellipsis string can be replaced with ellipsis character"
+        explanation="You can replace the string &quot;...&quot; with a dedicated ellipsis character, ellipsis character (…, &amp;#8230;). This can help make the text more readable."
+        url="http://en.wikipedia.org/wiki/Ellipsis"
+        urls="http://en.wikipedia.org/wiki/Ellipsis"
+        errorLine1="    &lt;string name=&quot;download_running&quot;>正在下载中...&lt;/string>"
+        errorLine2="                                    ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-zh-rCN/strings.xml"
+            line="181"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        severity="Warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        category="Usability:Typography"
+        priority="5"
+        summary="Ellipsis string can be replaced with ellipsis character"
+        explanation="You can replace the string &quot;...&quot; with a dedicated ellipsis character, ellipsis character (…, &amp;#8230;). This can help make the text more readable."
+        url="http://en.wikipedia.org/wiki/Ellipsis"
+        urls="http://en.wikipedia.org/wiki/Ellipsis"
+        errorLine1="    &lt;string name=&quot;export_&quot;>导出...&lt;/string>"
+        errorLine2="                           ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-zh-rCN/strings.xml"
+            line="191"
+            column="28"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        severity="Warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        category="Usability:Typography"
+        priority="5"
+        summary="Ellipsis string can be replaced with ellipsis character"
+        explanation="You can replace the string &quot;...&quot; with a dedicated ellipsis character, ellipsis character (…, &amp;#8230;). This can help make the text more readable."
+        url="http://en.wikipedia.org/wiki/Ellipsis"
+        urls="http://en.wikipedia.org/wiki/Ellipsis"
+        errorLine1="    &lt;string name=&quot;import_&quot;>导入...&lt;/string>"
+        errorLine2="                           ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-zh-rCN/strings.xml"
+            line="192"
+            column="28"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        severity="Warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        category="Usability:Typography"
+        priority="5"
+        summary="Ellipsis string can be replaced with ellipsis character"
+        explanation="You can replace the string &quot;...&quot; with a dedicated ellipsis character, ellipsis character (…, &amp;#8230;). This can help make the text more readable."
+        url="http://en.wikipedia.org/wiki/Ellipsis"
+        urls="http://en.wikipedia.org/wiki/Ellipsis"
+        errorLine1="    &lt;string name=&quot;loading&quot;>正在加载...&lt;/string>"
+        errorLine2="                           ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/values-zh-rCN/strings.xml"
+            line="256"
+            column="28"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="    &lt;ImageView"
+        errorLine2="    ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/activity_download_details_not_found.xml"
+            line="11"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="            &lt;ImageView"
+        errorLine2="            ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/activity_installation.xml"
+            line="32"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="&lt;ImageView android:id=&quot;@+id/preview&quot;"
+        errorLine2="^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/color_icon_preview.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="    &lt;ImageView"
+        errorLine2="    ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/icon_preference_item.xml"
+            line="24"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="        &lt;ImageView"
+        errorLine2="        ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/list_fragment.xml"
+            line="21"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="        &lt;ImageView"
+        errorLine2="        ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/list_item_module.xml"
+            line="25"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                    &lt;ImageView"
+        errorLine2="                    ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/single_installer_view.xml"
+            line="54"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                    &lt;ImageView"
+        errorLine2="                    ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/single_installer_view.xml"
+            line="88"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                    &lt;ImageView"
+        errorLine2="                    ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/single_installer_view.xml"
+            line="126"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                    &lt;ImageView"
+        errorLine2="                    ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/single_installer_view.xml"
+            line="164"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                    &lt;ImageView"
+        errorLine2="                    ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/single_installer_view.xml"
+            line="214"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                    &lt;ImageView"
+        errorLine2="                    ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/single_installer_view.xml"
+            line="250"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                        &lt;ImageView"
+        errorLine2="                        ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/status_installer.xml"
+            line="62"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                        &lt;ImageView"
+        errorLine2="                        ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/status_installer.xml"
+            line="110"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                        &lt;ImageView"
+        errorLine2="                        ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/status_installer.xml"
+            line="152"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                        &lt;ImageView"
+        errorLine2="                        ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/status_installer.xml"
+            line="187"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                        &lt;ImageView"
+        errorLine2="                        ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/status_installer.xml"
+            line="222"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                        &lt;ImageView"
+        errorLine2="                        ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/status_installer.xml"
+            line="259"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                        &lt;ImageView"
+        errorLine2="                        ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/status_installer.xml"
+            line="324"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                &lt;ImageView"
+        errorLine2="                ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/tab_downloader.xml"
+            line="37"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.&#xA;&#xA;Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.&#xA;&#xA;Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="        &lt;ImageView"
+        errorLine2="        ^"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/xposed_not_active_note.xml"
+            line="21"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        severity="Warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders."
+        category="Internationalization"
+        priority="6"
+        summary="TextView Internationalization"
+        explanation="When calling `TextView#setText`&#xA;* Never call `Number#toString()` to format numbers; it will not handle fraction separators and locale-specific digits properly. Consider using `String#format` with proper format specifications (`%d` or `%f`) instead.&#xA;* Do not pass a string literal (e.g. &quot;Hello&quot;) to display text. Hardcoded text can not be properly translated to other languages. Consider using Android resource strings instead.&#xA;* Do not build messages by concatenating text chunks. Such messages can not be properly translated."
+        url="http://developer.android.com/guide/topics/resources/localization.html"
+        urls="http://developer.android.com/guide/topics/resources/localization.html"
+        errorLine1="            txtTitle.setText(moreInfoEntry.first + &quot;:&quot;);"
+        errorLine2="                             ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/DownloadDetailsFragment.java"
+            line="66"
+            column="30"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        severity="Warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders."
+        category="Internationalization"
+        priority="6"
+        summary="TextView Internationalization"
+        explanation="When calling `TextView#setText`&#xA;* Never call `Number#toString()` to format numbers; it will not handle fraction separators and locale-specific digits properly. Consider using `String#format` with proper format specifications (`%d` or `%f`) instead.&#xA;* Do not pass a string literal (e.g. &quot;Hello&quot;) to display text. Hardcoded text can not be properly translated to other languages. Consider using Android resource strings instead.&#xA;* Do not build messages by concatenating text chunks. Such messages can not be properly translated."
+        url="http://developer.android.com/guide/topics/resources/localization.html"
+        urls="http://developer.android.com/guide/topics/resources/localization.html"
+        errorLine1="            mHint.setText(mHint.getText() + &quot;\n&quot; + sActivity.getString(R.string.goto_framework));"
+        errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/java/de/robv/android/xposed/installer/installation/StatusInstallerFragment.java"
+            line="65"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="RtlCompat"
+        severity="Error"
+        message="To support older versions than API 17 (project specifies 16) you should *also* add `android:layout_alignParentRight=&quot;true&quot;`"
+        category="Internationalization:Bidirectional Text"
+        priority="6"
+        summary="Right-to-left text compatibility issues"
+        explanation="API 17 adds a `textAlignment` attribute to specify text alignment. However, if you are supporting older versions than API 17, you must *also* specify a gravity or layout_gravity attribute, since older platforms will ignore the `textAlignment` attribute."
+        errorLine1="        android:layout_alignParentEnd=&quot;true&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/icon_preference_item.xml"
+            line="35"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        severity="Warning"
+        message="When you define `paddingRight` you should probably also define `paddingLeft` for right-to-left symmetry"
+        category="Internationalization:Bidirectional Text"
+        priority="6"
+        summary="Padding and margin symmetry"
+        explanation="If you specify padding or margin on the left side of a layout, you should probably also specify padding on the right side (and vice versa) for right-to-left layout symmetry."
+        errorLine1="        android:paddingRight=&quot;?android:attr/scrollbarSize&quot;>"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/download_details.xml"
+            line="13"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider adding `android:layout_toStartOf=&quot;@+id/reboot&quot;` to better support right-to-left layouts"
+        category="Internationalization:Bidirectional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.&#xA;&#xA;For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.&#xA;&#xA;(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="            android:layout_toLeftOf=&quot;@+id/reboot&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/activity_installation.xml"
+            line="69"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider adding `android:paddingEnd=&quot;?android:attr/scrollbarSize&quot;` to better support right-to-left layouts"
+        category="Internationalization:Bidirectional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.&#xA;&#xA;For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.&#xA;&#xA;(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="        android:paddingRight=&quot;?android:attr/scrollbarSize&quot;>"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/download_details.xml"
+            line="13"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider adding `android:layout_toEndOf=&quot;@+id/icon&quot;` to better support right-to-left layouts"
+        category="Internationalization:Bidirectional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.&#xA;&#xA;For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.&#xA;&#xA;(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="        android:layout_toRightOf=&quot;@+id/icon&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/icon_preference_item.xml"
+            line="36"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider replacing `android:layout_alignLeft` with `android:layout_alignStart=&quot;@android:id/text1&quot;` to better support right-to-left layouts"
+        category="Internationalization:Bidirectional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.&#xA;&#xA;For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.&#xA;&#xA;(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="            android:layout_alignLeft=&quot;@android:id/text1&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout-v23/list_item_download.xml"
+            line="23"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider adding `android:layout_alignStart=&quot;@android:id/text1&quot;` to better support right-to-left layouts"
+        category="Internationalization:Bidirectional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.&#xA;&#xA;For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.&#xA;&#xA;(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="            android:layout_alignLeft=&quot;@android:id/text1&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/list_item_download.xml"
+            line="24"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider replacing `android:layout_alignLeft` with `android:layout_alignStart=&quot;@android:id/text2&quot;` to better support right-to-left layouts"
+        category="Internationalization:Bidirectional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.&#xA;&#xA;For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.&#xA;&#xA;(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="            android:layout_alignLeft=&quot;@android:id/text2&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout-v23/list_item_download.xml"
+            line="32"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider adding `android:layout_alignStart=&quot;@android:id/text2&quot;` to better support right-to-left layouts"
+        category="Internationalization:Bidirectional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.&#xA;&#xA;For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.&#xA;&#xA;(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="            android:layout_alignLeft=&quot;@android:id/text2&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/list_item_download.xml"
+            line="33"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider replacing `android:layout_alignLeft` with `android:layout_alignStart=&quot;@android:id/text2&quot;` to better support right-to-left layouts"
+        category="Internationalization:Bidirectional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.&#xA;&#xA;For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.&#xA;&#xA;(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="            android:layout_alignLeft=&quot;@android:id/text2&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout-v23/list_item_download.xml"
+            line="41"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider adding `android:layout_alignStart=&quot;@android:id/text2&quot;` to better support right-to-left layouts"
+        category="Internationalization:Bidirectional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.&#xA;&#xA;For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.&#xA;&#xA;(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="            android:layout_alignLeft=&quot;@android:id/text2&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/list_item_download.xml"
+            line="42"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider adding `android:layout_marginEnd=&quot;4dip&quot;` to better support right-to-left layouts"
+        category="Internationalization:Bidirectional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.&#xA;&#xA;For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.&#xA;&#xA;(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="                    android:layout_marginRight=&quot;4dip&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/list_item_module.xml"
+            line="47"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider adding `android:layout_marginEnd=&quot;4dp&quot;` to better support right-to-left layouts"
+        category="Internationalization:Bidirectional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.&#xA;&#xA;For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.&#xA;&#xA;(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="                android:layout_marginRight=&quot;4dp&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/list_item_version.xml"
+            line="33"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider adding `android:layout_marginStart=&quot;4dp&quot;` to better support right-to-left layouts"
+        category="Internationalization:Bidirectional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.&#xA;&#xA;For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.&#xA;&#xA;(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="                android:layout_marginLeft=&quot;4dp&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/list_item_version.xml"
+            line="54"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Use &quot;`end`&quot; instead of &quot;`right`&quot; to ensure correct behavior in right-to-left locales"
+        category="Internationalization:Bidirectional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.&#xA;&#xA;For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.&#xA;&#xA;(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="                android:gravity=&quot;right&quot;"
+        errorLine2="                                 ~~~~~">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/layout/list_item_version.xml"
+            line="56"
+            column="34"/>
+    </issue>
+
+    <issue
+        id="RtlEnabled"
+        severity="Warning"
+        message="The project references RTL attributes, but does not explicitly enable or disable RTL support with `android:supportsRtl` in the manifest"
+        category="Internationalization:Bidirectional Text"
+        priority="3"
+        summary="Using RTL attributes without enabling RTL support"
+        explanation="To enable right-to-left support, when running on API 17 and higher, you must set the `android:supportsRtl` attribute in the manifest `&lt;application>` element.&#xA;&#xA;If you have started adding RTL attributes, but have not yet finished the migration, you can set the attribute to false to satisfy this lint check.">
+        <location
+            file="/home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml"/>
+    </issue>
+
+</issues>

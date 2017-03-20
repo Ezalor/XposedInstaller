@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/layout-v14/md_stub_progress_indeterminate.xml",
+        "source": "/home/travis/.android/build-cache/6a85869d678f17b1a3fd9bd50f1d9c1ed02d05b8/output/res/layout-v14/md_stub_progress_indeterminate.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/layout-v14/md_stub_progress_indeterminate_horizontal.xml",
+        "source": "/home/travis/.android/build-cache/6a85869d678f17b1a3fd9bd50f1d9c1ed02d05b8/output/res/layout-v14/md_stub_progress_indeterminate_horizontal.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/layout-v14/md_stub_progress.xml",
+        "source": "/home/travis/.android/build-cache/6a85869d678f17b1a3fd9bd50f1d9c1ed02d05b8/output/res/layout-v14/md_stub_progress.xml"
+    }
+]

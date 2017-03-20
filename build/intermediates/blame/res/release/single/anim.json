@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/popup_exit.xml",
+        "source": "/home/travis/.android/build-cache/6a85869d678f17b1a3fd9bd50f1d9c1ed02d05b8/output/res/anim/popup_exit.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/design_fab_in.xml",
+        "source": "/home/travis/.android/build-cache/da15e0afe65e456b71f3632cb338299cb7f139cc/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/decelerate_cubic.xml",
+        "source": "/home/travis/.android/build-cache/6a85869d678f17b1a3fd9bd50f1d9c1ed02d05b8/output/res/anim/decelerate_cubic.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/design_snackbar_in.xml",
+        "source": "/home/travis/.android/build-cache/da15e0afe65e456b71f3632cb338299cb7f139cc/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/design_snackbar_out.xml",
+        "source": "/home/travis/.android/build-cache/da15e0afe65e456b71f3632cb338299cb7f139cc/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/popup_enter.xml",
+        "source": "/home/travis/.android/build-cache/6a85869d678f17b1a3fd9bd50f1d9c1ed02d05b8/output/res/anim/popup_enter.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/design_fab_out.xml",
+        "source": "/home/travis/.android/build-cache/da15e0afe65e456b71f3632cb338299cb7f139cc/output/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/home/travis/.android/build-cache/da15e0afe65e456b71f3632cb338299cb7f139cc/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/fade_in.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/anim/fade_in.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/fade_out.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/anim/fade_out.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/home/travis/.android/build-cache/da15e0afe65e456b71f3632cb338299cb7f139cc/output/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/res/anim/abc_slide_in_top.xml"
+    }
+]

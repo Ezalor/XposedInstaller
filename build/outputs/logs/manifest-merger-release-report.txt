@@ -1,0 +1,385 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:2:1-221:12
+	package
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:2:11-53
+		INJECTED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml
+		INJECTED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml
+		INJECTED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:4:11-57
+	xmlns:android
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:3:11-69
+	android:versionCode
+		INJECTED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml
+		INJECTED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.INTERNET
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:10:5-78
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:11:22-63
+application
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:13:5-219:19
+MERGED from [com.android.support:cardview-v7:25.3.0] /home/travis/.android/build-cache/63921e8070abaec76e619fd3ae43b6e94dbfba08/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design:25.3.0] /home/travis/.android/build-cache/da15e0afe65e456b71f3632cb338299cb7f139cc/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.0] /home/travis/.android/build-cache/faace35fbc649c9bd14b5b65528af43fecc4de14/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.0] /home/travis/.android/build-cache/25b11c8417a628e7b0515225cb59fe09879d2054/output/AndroidManifest.xml:26:5-20
+MERGED from [com.afollestad.material-dialogs:commons:0.9.0.2] /home/travis/.android/build-cache/e899838e56c7600cce8c1abff172dca1a570a1f5/output/AndroidManifest.xml:12:5-20
+MERGED from [com.afollestad.material-dialogs:core:0.9.0.2] /home/travis/.android/build-cache/6a85869d678f17b1a3fd9bd50f1d9c1ed02d05b8/output/AndroidManifest.xml:13:5-20
+MERGED from [de.psdev.licensesdialog:licensesdialog:1.8.1] /home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/AndroidManifest.xml:19:5-19
+MERGED from [com.android.support:appcompat-v7:25.3.0] /home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.0] /home/travis/.android/build-cache/7bbbbff871106c07cc53188691f93286da1b0a53/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] /home/travis/.android/build-cache/ab571c5055530832dc8b6e7005bf243d5c80b3cc/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/travis/.android/build-cache/eee2ac08d70b45f64a4883bdb3ec0fad2e4b7143/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/travis/.android/build-cache/5a5c41441d413c3e1a411956284d2defc5f82c73/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/travis/.android/build-cache/094f25b301303891d9cf3ef0228e73c7d2df0a29/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/travis/.android/build-cache/f25c0e164187568f38cc2b18bb2a29b4884f0b30/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/travis/.android/build-cache/e793a495e67cdfbb91e1a2b2b54a81a9d7817463/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.0] /home/travis/.android/build-cache/1a952431eddc4310defd9388f6263c668bd32c7f/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:18:9-55
+	tools:ignore
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:20:9-40
+	android:allowBackup
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:15:9-36
+	android:icon
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:16:9-43
+	tools:targetApi
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:21:9-32
+	android:theme
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:19:9-59
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:14:9-34
+activity#de.robv.android.xposed.installer.WelcomeActivity
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:22:9-30:20
+	android:label
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:26:13-45
+	android:exported
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:25:13-36
+	android:configChanges
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:24:13-59
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:23:13-44
+intent-filter#android.intent.action.MAIN
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:27:13-29:29
+action#android.intent.action.MAIN
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:28:25-66
+activity-alias#de.robv.android.xposed.installer.WelcomeActivity-dvdandroid
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:32:9-48:26
+	android:enabled
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:34:13-35
+	android:label
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:36:13-45
+	android:targetActivity
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:38:13-54
+	android:roundIcon
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:37:13-59
+	android:icon
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:35:13-47
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:33:13-55
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+android.intent.category.MULTIWINDOW_LAUNCHER
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:39:13-44:29
+category#android.intent.category.LAUNCHER
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:42:17-76
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:42:27-74
+category#android.intent.category.MULTIWINDOW_LAUNCHER
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:43:17-88
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:43:27-86
+meta-data#android.app.shortcuts
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:45:13-47:52
+	android:resource
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:47:17-50
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:46:17-53
+activity-alias#de.robv.android.xposed.installer.WelcomeActivity-hjmodi
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:49:9-65:26
+	android:enabled
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:51:13-36
+	android:label
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:53:13-45
+	android:targetActivity
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:55:13-54
+	android:roundIcon
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:54:13-66
+	android:icon
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:50:13-51
+activity-alias#de.robv.android.xposed.installer.WelcomeActivity-rovo
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:66:9-82:26
+	android:enabled
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:68:13-36
+	android:label
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:70:13-45
+	android:targetActivity
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:72:13-54
+	android:roundIcon
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:71:13-64
+	android:icon
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:69:13-52
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:67:13-49
+activity-alias#de.robv.android.xposed.installer.WelcomeActivity-rovo-old
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:83:9-98:26
+	android:enabled
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:85:13-36
+	android:label
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:87:13-45
+	android:targetActivity
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:88:13-54
+	android:icon
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:86:13-56
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:84:13-53
+activity-alias#de.robv.android.xposed.installer.WelcomeActivity-staol
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:99:9-114:26
+	android:enabled
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:101:13-36
+	android:label
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:103:13-45
+	android:targetActivity
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:104:13-54
+	android:icon
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:102:13-53
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:100:13-50
+activity#de.robv.android.xposed.installer.DownloadDetailsActivity
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:116:9-147:20
+	android:exported
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:119:13-36
+	android:configChanges
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:118:13-59
+	android:theme
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:120:13-69
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:117:13-52
+intent-filter#android.intent.category.DEFAULT+de.robv.android.xposed.installer.DOWNLOAD_DETAILS
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:121:13-127:29
+action#de.robv.android.xposed.installer.DOWNLOAD_DETAILS
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:122:17-91
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:122:25-89
+data
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:124:17-49
+	android:scheme
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:124:23-47
+category#android.intent.category.DEFAULT
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:126:17-75
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:126:27-73
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:128:13-138:29
+action#android.intent.action.VIEW
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:129:17-68
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:129:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:137:17-77
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:137:27-75
+activity#de.robv.android.xposed.installer.SettingsActivity
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:148:9-156:20
+	android:theme
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:150:13-69
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:149:13-45
+intent-filter#android.intent.action.APPLICATION_PREFERENCES+android.intent.category.DEFAULT
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:151:13-155:29
+action#android.intent.action.APPLICATION_PREFERENCES
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:152:17-87
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:152:25-85
+activity#de.robv.android.xposed.installer.SupportActivity
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:157:9-159:71
+	android:theme
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:159:13-69
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:158:13-44
+activity#de.robv.android.xposed.installer.AboutActivity
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:160:9-162:71
+	android:theme
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:162:13-69
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:161:13-42
+activity#de.robv.android.xposed.installer.ModulesBookmark
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:163:9-165:71
+	android:theme
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:165:13-69
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:164:13-44
+activity#de.robv.android.xposed.installer.installation.InstallationActivity
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:166:9-169:71
+	android:screenOrientation
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:168:13-49
+	android:theme
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:169:13-69
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:167:13-62
+receiver#de.robv.android.xposed.installer.receivers.PackageChangeReceiver
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:170:9-180:20
+	android:exported
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:172:13-37
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:171:13-60
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_CHANGED+android.intent.action.PACKAGE_REMOVED
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:173:13-179:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:174:17-77
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:174:25-75
+action#android.intent.action.PACKAGE_CHANGED
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:175:17-79
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:175:25-77
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:176:17-79
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:176:25-77
+receiver#de.robv.android.xposed.installer.receivers.DownloadReceiver
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:181:9-188:20
+	android:exported
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:183:13-36
+	android:permission
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:184:13-84
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:182:13-55
+intent-filter#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:185:13-187:29
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:186:17-81
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:186:25-79
+receiver#de.robv.android.xposed.installer.util.NotificationUtil$RebootReceiver
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:189:9-191:39
+	android:exported
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:191:13-37
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:190:13-65
+receiver#de.robv.android.xposed.installer.util.NotificationUtil$ApkReceiver
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:192:9-194:39
+	android:exported
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:194:13-37
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:193:13-62
+receiver#de.robv.android.xposed.installer.receivers.BootReceiver
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:195:9-198:38
+	android:enabled
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:197:13-35
+	android:exported
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:198:13-36
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:196:13-51
+uses-library#com.sec.android.app.multiwindow
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:200:9-202:39
+	android:required
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:202:13-37
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:201:13-59
+meta-data#com.sec.android.support.multiwindow
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:204:9-206:35
+	android:value
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:206:13-33
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:205:13-63
+meta-data#com.sec.android.multiwindow.DEFAULT_SIZE_W
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:207:9-209:39
+	android:value
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:209:13-37
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:208:13-70
+meta-data#com.sec.android.multiwindow.DEFAULT_SIZE_H
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:210:9-212:39
+	android:value
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:212:13-37
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:211:13-70
+meta-data#com.sec.android.multiwindow.MINIMUM_SIZE_W
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:213:9-215:39
+	android:value
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:215:13-37
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:214:13-70
+meta-data#com.sec.android.multiwindow.MINIMUM_SIZE_H
+ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:216:9-218:39
+	android:value
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:218:13-37
+	android:name
+		ADDED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml:217:13-70
+uses-sdk
+INJECTED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:cardview-v7:25.3.0] /home/travis/.android/build-cache/63921e8070abaec76e619fd3ae43b6e94dbfba08/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:25.3.0] /home/travis/.android/build-cache/da15e0afe65e456b71f3632cb338299cb7f139cc/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.0] /home/travis/.android/build-cache/faace35fbc649c9bd14b5b65528af43fecc4de14/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:25.3.0] /home/travis/.android/build-cache/25b11c8417a628e7b0515225cb59fe09879d2054/output/AndroidManifest.xml:20:5-44
+MERGED from [com.afollestad.material-dialogs:commons:0.9.0.2] /home/travis/.android/build-cache/e899838e56c7600cce8c1abff172dca1a570a1f5/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.afollestad.material-dialogs:core:0.9.0.2] /home/travis/.android/build-cache/6a85869d678f17b1a3fd9bd50f1d9c1ed02d05b8/output/AndroidManifest.xml:8:5-11:75
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /home/travis/.android/build-cache/8ab29c7fb6abe2c5c4cd0ac439a22a2e35344fab/output/AndroidManifest.xml:20:5-43
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.7] /home/travis/.android/build-cache/fe7f5eb10e38017b6fa1c84fb5e16c4912b7e343/output/AndroidManifest.xml:12:5-14:41
+MERGED from [com.github.machinarius:preferencefragment:0.1.1] /home/travis/.android/build-cache/1386c674de4e13037852aa624006e038736cbd1d/output/AndroidManifest.xml:18:5-42
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] /home/travis/.android/build-cache/89409f06bf16d84f3aeb39850919e8a5a32a4832/output/AndroidManifest.xml:7:5-9:41
+MERGED from [eu.chainfire:libsuperuser:1.0.0.201608240809] /home/travis/.android/build-cache/21a7df325de0f3fb3abe7c24ab957951ed9016b5/output/AndroidManifest.xml:7:5-9:41
+MERGED from [de.psdev.licensesdialog:licensesdialog:1.8.1] /home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/AndroidManifest.xml:18:5-72
+MERGED from [com.android.support:appcompat-v7:25.3.0] /home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.0] /home/travis/.android/build-cache/7bbbbff871106c07cc53188691f93286da1b0a53/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] /home/travis/.android/build-cache/ab571c5055530832dc8b6e7005bf243d5c80b3cc/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/travis/.android/build-cache/eee2ac08d70b45f64a4883bdb3ec0fad2e4b7143/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/travis/.android/build-cache/5a5c41441d413c3e1a411956284d2defc5f82c73/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/travis/.android/build-cache/094f25b301303891d9cf3ef0228e73c7d2df0a29/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/travis/.android/build-cache/f25c0e164187568f38cc2b18bb2a29b4884f0b30/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/travis/.android/build-cache/e793a495e67cdfbb91e1a2b2b54a81a9d7817463/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.0] /home/travis/.android/build-cache/1a952431eddc4310defd9388f6263c668bd32c7f/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.0] /home/travis/.android/build-cache/da15e0afe65e456b71f3632cb338299cb7f139cc/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml
+		INJECTED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml
+		INJECTED from /home/travis/build/Ezalor/XposedInstaller/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:25.3.0] /home/travis/.android/build-cache/63921e8070abaec76e619fd3ae43b6e94dbfba08/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.0] /home/travis/.android/build-cache/da15e0afe65e456b71f3632cb338299cb7f139cc/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.0] /home/travis/.android/build-cache/faace35fbc649c9bd14b5b65528af43fecc4de14/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.0] /home/travis/.android/build-cache/25b11c8417a628e7b0515225cb59fe09879d2054/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /home/travis/.android/build-cache/8ab29c7fb6abe2c5c4cd0ac439a22a2e35344fab/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] /home/travis/.android/build-cache/fdfe6bb71059570d600594aac742f276a6dfc93b/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.0] /home/travis/.android/build-cache/7bbbbff871106c07cc53188691f93286da1b0a53/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] /home/travis/.android/build-cache/ab571c5055530832dc8b6e7005bf243d5c80b3cc/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/travis/.android/build-cache/eee2ac08d70b45f64a4883bdb3ec0fad2e4b7143/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/travis/.android/build-cache/5a5c41441d413c3e1a411956284d2defc5f82c73/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/travis/.android/build-cache/094f25b301303891d9cf3ef0228e73c7d2df0a29/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/travis/.android/build-cache/f25c0e164187568f38cc2b18bb2a29b4884f0b30/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/travis/.android/build-cache/e793a495e67cdfbb91e1a2b2b54a81a9d7817463/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.0] /home/travis/.android/build-cache/1a952431eddc4310defd9388f6263c668bd32c7f/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:cardview-v7:25.3.0] /home/travis/.android/build-cache/63921e8070abaec76e619fd3ae43b6e94dbfba08/output/AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:cardview-v7:25.3.0] /home/travis/.android/build-cache/63921e8070abaec76e619fd3ae43b6e94dbfba08/output/AndroidManifest.xml:23:9-47

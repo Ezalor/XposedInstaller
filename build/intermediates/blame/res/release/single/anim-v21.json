@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/travis/.android/build-cache/da15e0afe65e456b71f3632cb338299cb7f139cc/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/travis/.android/build-cache/da15e0afe65e456b71f3632cb338299cb7f139cc/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    }
+]

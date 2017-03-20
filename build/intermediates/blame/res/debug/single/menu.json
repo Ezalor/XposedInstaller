@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/menu/menu_about.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/menu/menu_about.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/menu/menu_download_details.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/menu/menu_download_details.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/menu/menu_modules.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/menu/menu_modules.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/menu/menu_download.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/menu/menu_download.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/menu/drawer.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/menu/drawer.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/menu/context_menu_modules_bookmark.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/menu/context_menu_modules_bookmark.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/menu/context_menu_modules.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/menu/context_menu_modules.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/menu/menu_installer.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/menu/menu_installer.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/menu/menu_logs.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/src/main/res/menu/menu_logs.xml"
+    }
+]

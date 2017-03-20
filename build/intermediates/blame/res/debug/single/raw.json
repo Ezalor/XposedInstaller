@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/bsd3_summary.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/bsd3_summary.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/gpl_20_summary.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/gpl_20_summary.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/asl_20_full.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/asl_20_full.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/bsd2_summary.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/bsd2_summary.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/bsd3_full.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/bsd3_full.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/ccbysa_30_full.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/ccbysa_30_full.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/isc_full.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/isc_full.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/gpl_30_summary.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/gpl_30_summary.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/sil_ofl_11_full.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/sil_ofl_11_full.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/isc_summary.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/isc_summary.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/bsd2_full.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/bsd2_full.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/mpl_11_full.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/mpl_11_full.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/lgpl_3_full.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/lgpl_3_full.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/ccand_30_full.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/ccand_30_full.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/ccand_30_summary.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/ccand_30_summary.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/asl_20_summary.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/asl_20_summary.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/gpl_20_full.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/gpl_20_full.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/mpl_11_summary.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/mpl_11_summary.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/mit_summary.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/mit_summary.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/sil_ofl_11_summary.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/sil_ofl_11_summary.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/gpl_30_full.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/gpl_30_full.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/ccbysa_30_summary.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/ccbysa_30_summary.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/lgpl_3_summary.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/lgpl_3_summary.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/notices.xml",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/notices.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/lgpl_21_summary.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/lgpl_21_summary.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/lgpl_21_full.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/lgpl_21_full.txt"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/raw/mit_full.txt",
+        "source": "/home/travis/.android/build-cache/082cb4c1f7fa623f288ce2a8ea628e864ab54baa/output/res/raw/mit_full.txt"
+    }
+]

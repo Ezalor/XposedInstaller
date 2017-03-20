@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_nav_support.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_nav_support.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_sort.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_sort.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_action_thumb_down.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_action_thumb_down.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_search.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_search.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/shortcut_ic_downloads.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/shortcut_ic_downloads.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_history.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_history.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_nav_about.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_nav_about.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_bookmark_outline.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_bookmark_outline.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_action_share.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_action_share.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/md_nav_back.xml",
+        "source": "/home/travis/.android/build-cache/6a85869d678f17b1a3fd9bd50f1d9c1ed02d05b8/output/res/drawable-anydpi-v21/md_nav_back.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_chip.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_chip.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_language.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_language.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_update.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_update.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_nav_logs.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_nav_logs.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_notification.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_notification.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_close.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_close.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_no_connection.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_no_connection.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_save.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_save.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_person.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_person.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_send.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_send.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_warning.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_warning.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_bookmark.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_bookmark.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_description.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_description.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_xda.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_xda.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_donate.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_donate.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_check_circle.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_check_circle.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_lightbulb.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_lightbulb.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_github.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_github.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_no_image.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_no_image.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_nav_downloads.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_nav_downloads.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_action_thumb_up.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_action_thumb_up.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/home/travis/.android/build-cache/da15e0afe65e456b71f3632cb338299cb7f139cc/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_warning_grey.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_warning_grey.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_manufacturer.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_manufacturer.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_refresh.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_refresh.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_scroll_down.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_scroll_down.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_scroll_top.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_scroll_top.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_nav_modules.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_nav_modules.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/shortcut_ic_modules.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/shortcut_ic_modules.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_nav_install.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_nav_install.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_info.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_info.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/home/travis/.android/build-cache/da15e0afe65e456b71f3632cb338299cb7f139cc/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_android.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_android.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_help.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_help.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_error.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_error.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_nav_settings.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_nav_settings.xml"
+    },
+    {
+        "merged": "/home/travis/build/Ezalor/XposedInstaller/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_delete.xml",
+        "source": "/home/travis/build/Ezalor/XposedInstaller/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_delete.xml"
+    }
+]
